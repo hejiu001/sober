@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk 'NR==116{print; print \"\"; print \"    // 跨系统校验\\(仅竞速模式\\)：状态机卡在fork，但INS记录为normal\\(element_flag==0\\)，持续5帧强制退出\"; print \"    if \\(run_mode == 1 && car_state != normal && car_pos.element_flag == 0\\) {\"; print \"        ins_exit_confirm_count++;\"; print \"        if \\(ins_exit_confirm_count >= 5\\) {\"; print \"            car_state = normal;\"; print \"            fork_num_increase\\(\\);\"; print \"            ins_exit_confirm_count = 0;\"; print \"        }\"; print \"    } else {\"; print \"        ins_exit_confirm_count = 0;\"; print \"    }\"; print \"\"; next} 1' state_control.c)",
+      "Bash(mv state_control_tmp.c state_control.c)"
+    ]
+  }
+}

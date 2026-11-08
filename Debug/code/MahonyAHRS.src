@@ -1,0 +1,3955 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc18716a --dep-file=code/MahonyAHRS.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -ID:\\\\ADSone\\\\Soberup_2026 -ID:\\\\ADSone\\\\Soberup_2026\\\\code -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\zf_common -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\zf_components -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\zf_device -ID:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\zf_driver -ID:\\\\ADSone\\\\Soberup_2026\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o code/MahonyAHRS.src ../code/MahonyAHRS.c"
+	.compiler_name		"ctc"
+	;source	'../code/MahonyAHRS.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.MahonyAHRS.Mahony_invSqrt',code,cluster('Mahony_invSqrt')
+	.sect	'.text.MahonyAHRS.Mahony_invSqrt'
+	.align	2
+	
+	.global	Mahony_invSqrt
+; Function Mahony_invSqrt
+.L12:
+Mahony_invSqrt:	.type	func
+	movh	d15,#16128
+.L465:
+	mul.f	d0,d4,d15
+.L187:
+	mov	d15,#23007
+	addih	d15,d15,#24375
+.L466:
+	sha	d4,#-1
+.L186:
+	sub	d15,d4
+.L467:
+	movh	d1,#16320
+.L468:
+	mul.f	d2,d0,d15
+.L469:
+	msub.f	d1,d1,d2,d15
+.L470:
+	mul.f	d15,d15,d1
+.L189:
+	movh	d1,#16320
+.L471:
+	mul.f	d0,d0,d15
+.L188:
+	msub.f	d0,d1,d0,d15
+.L472:
+	mul.f	d2,d15,d0
+.L190:
+	j	.L2
+.L2:
+	ret
+.L160:
+	
+__Mahony_invSqrt_function_end:
+	.size	Mahony_invSqrt,__Mahony_invSqrt_function_end-Mahony_invSqrt
+.L69:
+	; End of function
+	
+	.sdecl	'.text.MahonyAHRS.Mahony_CalibrateGyro',code,cluster('Mahony_CalibrateGyro')
+	.sect	'.text.MahonyAHRS.Mahony_CalibrateGyro'
+	.align	2
+	
+	.global	Mahony_CalibrateGyro
+; Function Mahony_CalibrateGyro
+.L14:
+Mahony_CalibrateGyro:	.type	func
+	mov	d8,#0
+.L191:
+	mov	d9,#0
+.L192:
+	mov	d10,#0
+.L193:
+	mov	d11,#200
+.L134:
+	mov	d12,#0
+.L194:
+	j	.L3
+.L4:
+	call	imu660rc_get_gyro
+.L315:
+	movh.a	a15,#@his(imu660rc_gyro_x)
+	lea	a15,[a15]@los(imu660rc_gyro_x)
+	ld.h	d0,[a15]
+	itof	d0,d0
+	movh.a	a15,#@his(imu660rc_transition_factor)
+	lea	a15,[a15]@los(imu660rc_transition_factor)
+	ld.w	d15,[a15]4
+	div.f	d15,d0,d15
+.L316:
+	add.f	d8,d8,d15
+.L317:
+	movh.a	a15,#@his(imu660rc_gyro_y)
+	lea	a15,[a15]@los(imu660rc_gyro_y)
+	ld.h	d15,[a15]
+	itof	d0,d15
+	movh.a	a15,#@his(imu660rc_transition_factor)
+	lea	a15,[a15]@los(imu660rc_transition_factor)
+	ld.w	d15,[a15]4
+	div.f	d15,d0,d15
+.L318:
+	add.f	d9,d9,d15
+.L319:
+	movh.a	a15,#@his(imu660rc_gyro_z)
+	lea	a15,[a15]@los(imu660rc_gyro_z)
+	ld.h	d15,[a15]
+	itof	d0,d15
+	movh.a	a15,#@his(imu660rc_transition_factor)
+	lea	a15,[a15]@los(imu660rc_transition_factor)
+	ld.w	d15,[a15]4
+	div.f	d15,d0,d15
+.L320:
+	add.f	d10,d10,d15
+.L137:
+	mov	d4,#5
+	call	system_delay_ms
+.L138:
+	add	d12,#1
+.L195:
+	extr.u	d12,d12,#0,#16
+.L3:
+	jlt.u	d12,d11,.L4
+.L135:
+	movh.a	a15,#@his(gyro_offset_x)
+	lea	a15,[a15]@los(gyro_offset_x)
+.L321:
+	utof	d15,d11
+.L322:
+	div.f	d15,d8,d15
+.L323:
+	st.w	[a15],d15
+.L324:
+	movh.a	a15,#@his(gyro_offset_y)
+	lea	a15,[a15]@los(gyro_offset_y)
+.L325:
+	utof	d15,d11
+.L326:
+	div.f	d15,d9,d15
+.L327:
+	st.w	[a15],d15
+.L328:
+	movh.a	a15,#@his(gyro_offset_z)
+	lea	a15,[a15]@los(gyro_offset_z)
+.L329:
+	utof	d15,d11
+.L330:
+	div.f	d15,d10,d15
+.L331:
+	st.w	[a15],d15
+.L332:
+	ret
+.L128:
+	
+__Mahony_CalibrateGyro_function_end:
+	.size	Mahony_CalibrateGyro,__Mahony_CalibrateGyro_function_end-Mahony_CalibrateGyro
+.L44:
+	; End of function
+	
+	.sdecl	'.text.MahonyAHRS.IMU_GetValue',code,cluster('IMU_GetValue')
+	.sect	'.text.MahonyAHRS.IMU_GetValue'
+	.align	2
+	
+	.global	IMU_GetValue
+; Function IMU_GetValue
+.L16:
+IMU_GetValue:	.type	func
+	call	imu660rc_get_gyro
+.L477:
+	call	imu660rc_get_acc
+.L478:
+	movh.a	a15,#@his(imu_data)
+	lea	a15,[a15]@los(imu_data)
+.L479:
+	movh.a	a2,#@his(imu660rc_acc_x)
+	lea	a2,[a2]@los(imu660rc_acc_x)
+	ld.h	d15,[a2]
+	itof	d15,d15
+	movh.a	a2,#@his(imu660rc_transition_factor)
+	lea	a2,[a2]@los(imu660rc_transition_factor)
+	ld.w	d0,[a2]
+	div.f	d15,d15,d0
+.L480:
+	st.w	[a15]12,d15
+.L481:
+	movh.a	a15,#@his(imu_data)
+	lea	a15,[a15]@los(imu_data)
+.L482:
+	movh.a	a2,#@his(imu660rc_acc_y)
+	lea	a2,[a2]@los(imu660rc_acc_y)
+	ld.h	d15,[a2]
+	itof	d15,d15
+	movh.a	a2,#@his(imu660rc_transition_factor)
+	lea	a2,[a2]@los(imu660rc_transition_factor)
+	ld.w	d0,[a2]
+	div.f	d15,d15,d0
+.L483:
+	st.w	[a15]16,d15
+.L484:
+	movh.a	a15,#@his(imu_data)
+	lea	a15,[a15]@los(imu_data)
+.L485:
+	movh.a	a2,#@his(imu660rc_acc_z)
+	lea	a2,[a2]@los(imu660rc_acc_z)
+	ld.h	d15,[a2]
+	itof	d15,d15
+	movh.a	a2,#@his(imu660rc_transition_factor)
+	lea	a2,[a2]@los(imu660rc_transition_factor)
+	ld.w	d0,[a2]
+	div.f	d15,d15,d0
+.L486:
+	st.w	[a15]20,d15
+.L167:
+	movh.a	a15,#@his(imu660rc_gyro_x)
+	lea	a15,[a15]@los(imu660rc_gyro_x)
+	ld.h	d15,[a15]
+	itof	d0,d15
+	movh.a	a15,#@his(imu660rc_transition_factor)
+	lea	a15,[a15]@los(imu660rc_transition_factor)
+	ld.w	d15,[a15]4
+	div.f	d15,d0,d15
+.L487:
+	movh.a	a15,#@his(gyro_offset_x)
+	lea	a15,[a15]@los(gyro_offset_x)
+	ld.w	d0,[a15]
+.L488:
+	sub.f	d0,d15,d0
+.L196:
+	movh.a	a15,#@his(imu660rc_gyro_y)
+	lea	a15,[a15]@los(imu660rc_gyro_y)
+	ld.h	d15,[a15]
+	itof	d1,d15
+	movh.a	a15,#@his(imu660rc_transition_factor)
+	lea	a15,[a15]@los(imu660rc_transition_factor)
+	ld.w	d15,[a15]4
+	div.f	d15,d1,d15
+.L489:
+	movh.a	a15,#@his(gyro_offset_y)
+	lea	a15,[a15]@los(gyro_offset_y)
+	ld.w	d1,[a15]
+.L490:
+	sub.f	d1,d15,d1
+.L197:
+	movh.a	a15,#@his(imu660rc_gyro_z)
+	lea	a15,[a15]@los(imu660rc_gyro_z)
+	ld.h	d15,[a15]
+	itof	d2,d15
+	movh.a	a15,#@his(imu660rc_transition_factor)
+	lea	a15,[a15]@los(imu660rc_transition_factor)
+	ld.w	d15,[a15]4
+	div.f	d15,d2,d15
+.L491:
+	movh.a	a15,#@his(gyro_offset_z)
+	lea	a15,[a15]@los(gyro_offset_z)
+	ld.w	d2,[a15]
+.L492:
+	sub.f	d2,d15,d2
+.L198:
+	movh.a	a15,#@his(imu_data)
+	lea	a15,[a15]@los(imu_data)
+.L493:
+	mov.u	d15,#64053
+	addih	d15,d15,#15502
+.L494:
+	mul.f	d15,d0,d15
+.L495:
+	st.w	[a15],d15
+.L496:
+	movh.a	a15,#@his(imu_data)
+	lea	a15,[a15]@los(imu_data)
+.L497:
+	mov.u	d15,#64053
+	addih	d15,d15,#15502
+.L498:
+	mul.f	d15,d1,d15
+.L499:
+	st.w	[a15]4,d15
+.L500:
+	movh.a	a15,#@his(imu_data)
+	lea	a15,[a15]@los(imu_data)
+.L501:
+	mov.u	d15,#64053
+	addih	d15,d15,#15502
+.L502:
+	mul.f	d15,d2,d15
+.L503:
+	st.w	[a15]8,d15
+.L504:
+	movh.a	a15,#@his(GZ)
+	lea	a15,[a15]@los(GZ)
+.L505:
+	st.w	[a15],d2
+.L506:
+	ret
+.L166:
+	
+__IMU_GetValue_function_end:
+	.size	IMU_GetValue,__IMU_GetValue_function_end-IMU_GetValue
+.L74:
+	; End of function
+	
+	.sdecl	'.text.MahonyAHRS.MahonyAHRSupdateIMU',code,cluster('MahonyAHRSupdateIMU')
+	.sect	'.text.MahonyAHRS.MahonyAHRSupdateIMU'
+	.align	2
+	
+	.global	MahonyAHRSupdateIMU
+; Function MahonyAHRSupdateIMU
+.L18:
+MahonyAHRSupdateIMU:	.type	func
+	mov	e8,d5,d4
+	mov	e10,d7,d6
+	ld.w	d12,[a10]
+.L201:
+	ld.w	d13,[a10]4
+.L203:
+	extr.u	d0,d11,#23,#8
+.L204:
+	eq	d15,d0,#0
+.L337:
+	jeq	d15,#0,.L5
+.L338:
+	extr.u	d15,d12,#23,#8
+	eq	d15,d15,#0
+	jeq	d15,#0,.L6
+.L339:
+	extr.u	d15,d13,#23,#8
+	jeq	d15,#0,.L7
+.L6:
+.L5:
+	mul.f	d15,d12,d12
+.L206:
+	madd.f	d15,d15,d11,d11
+.L207:
+	madd.f	d4,d15,d13,d13
+.L200:
+	call	Mahony_invSqrt
+.L199:
+	mul.f	d3,d11,d2
+.L208:
+	mul.f	d4,d12,d2
+.L202:
+	mul.f	d5,d13,d2
+.L205:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+	ld.w	d15,[a15]
+.L340:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	ld.w	d0,[a15]
+.L341:
+	mul.f	d15,d15,d0
+.L342:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+	ld.w	d0,[a15]
+.L343:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	ld.w	d1,[a15]
+.L344:
+	msub.f	d6,d15,d0,d1
+.L212:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+	ld.w	d15,[a15]
+.L345:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+	ld.w	d0,[a15]
+.L346:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	ld.w	d1,[a15]
+.L347:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	ld.w	d2,[a15]
+.L209:
+	mul.f	d1,d1,d2
+.L348:
+	madd.f	d7,d1,d15,d0
+.L213:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	ld.w	d15,[a15]
+.L349:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	ld.w	d0,[a15]
+.L350:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+	ld.w	d1,[a15]
+.L351:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+	ld.w	d2,[a15]
+.L352:
+	mul.f	d1,d1,d2
+.L353:
+	movh	d2,#16128
+.L354:
+	sub.f	d1,d1,d2
+.L355:
+	madd.f	d15,d1,d15,d0
+.L214:
+	mul.f	d0,d4,d15
+.L356:
+	msub.f	d1,d0,d5,d7
+.L216:
+	mul.f	d0,d5,d6
+.L357:
+	msub.f	d2,d0,d3,d15
+.L217:
+	mul.f	d15,d3,d7
+.L215:
+	msub.f	d4,d15,d4,d6
+.L211:
+	movh.a	a15,#@his(twoKi)
+	lea	a15,[a15]@los(twoKi)
+	ld.w	d15,[a15]
+.L358:
+	mov	d0,#0
+.L359:
+	cmp.f	d15,d15,d0
+	jnz.t	d15:2,.L8
+.L360:
+	movh.a	a15,#@his(integralFBx)
+	lea	a15,[a15]@los(integralFBx)
+.L361:
+	mov	d15,#0
+.L362:
+	st.w	[a15],d15
+.L363:
+	movh.a	a15,#@his(integralFBy)
+	lea	a15,[a15]@los(integralFBy)
+.L364:
+	mov	d15,#0
+.L365:
+	st.w	[a15],d15
+.L366:
+	movh.a	a15,#@his(integralFBz)
+	lea	a15,[a15]@los(integralFBz)
+.L367:
+	mov	d15,#0
+.L368:
+	st.w	[a15],d15
+.L369:
+	j	.L9
+.L8:
+	movh.a	a15,#@his(integralFBx)
+	lea	a15,[a15]@los(integralFBx)
+.L370:
+	movh.a	a2,#@his(twoKi)
+	lea	a2,[a2]@los(twoKi)
+	ld.w	d15,[a2]
+.L371:
+	mul.f	d15,d15,d1
+.L372:
+	movh.a	a2,#@his(invSampleFreq)
+	lea	a2,[a2]@los(invSampleFreq)
+	ld.w	d0,[a2]
+.L373:
+	movh.a	a2,#@his(integralFBx)
+	lea	a2,[a2]@los(integralFBx)
+	ld.w	d3,[a2]
+.L210:
+	madd.f	d15,d3,d15,d0
+	st.w	[a15],d15
+.L374:
+	movh.a	a15,#@his(integralFBy)
+	lea	a15,[a15]@los(integralFBy)
+.L375:
+	movh.a	a2,#@his(twoKi)
+	lea	a2,[a2]@los(twoKi)
+	ld.w	d15,[a2]
+.L376:
+	mul.f	d15,d15,d2
+.L377:
+	movh.a	a2,#@his(invSampleFreq)
+	lea	a2,[a2]@los(invSampleFreq)
+	ld.w	d0,[a2]
+.L378:
+	movh.a	a2,#@his(integralFBy)
+	lea	a2,[a2]@los(integralFBy)
+	ld.w	d3,[a2]
+.L379:
+	madd.f	d15,d3,d15,d0
+	st.w	[a15],d15
+.L380:
+	movh.a	a15,#@his(integralFBz)
+	lea	a15,[a15]@los(integralFBz)
+.L381:
+	movh.a	a2,#@his(twoKi)
+	lea	a2,[a2]@los(twoKi)
+	ld.w	d15,[a2]
+.L382:
+	mul.f	d15,d15,d4
+.L383:
+	movh.a	a2,#@his(invSampleFreq)
+	lea	a2,[a2]@los(invSampleFreq)
+	ld.w	d0,[a2]
+.L384:
+	movh.a	a2,#@his(integralFBz)
+	lea	a2,[a2]@los(integralFBz)
+	ld.w	d3,[a2]
+.L385:
+	madd.f	d15,d3,d15,d0
+	st.w	[a15],d15
+.L386:
+	movh.a	a15,#@his(integralFBx)
+	lea	a15,[a15]@los(integralFBx)
+	ld.w	d15,[a15]
+.L218:
+	add.f	d8,d8,d15
+.L387:
+	movh.a	a15,#@his(integralFBy)
+	lea	a15,[a15]@los(integralFBy)
+	ld.w	d15,[a15]
+.L219:
+	add.f	d9,d9,d15
+.L388:
+	movh.a	a15,#@his(integralFBz)
+	lea	a15,[a15]@los(integralFBz)
+	ld.w	d15,[a15]
+.L220:
+	add.f	d10,d10,d15
+.L9:
+	movh	d15,#16384
+.L221:
+	madd.f	d8,d8,d1,d15
+.L389:
+	movh	d15,#16384
+.L222:
+	madd.f	d9,d9,d2,d15
+.L390:
+	movh	d15,#16384
+.L223:
+	madd.f	d10,d10,d4,d15
+.L7:
+	movh.a	a15,#@his(invSampleFreq)
+	lea	a15,[a15]@los(invSampleFreq)
+	ld.w	d15,[a15]
+.L391:
+	movh	d0,#16128
+.L392:
+	mul.f	d15,d15,d0
+.L224:
+	mul.f	d1,d8,d15
+.L225:
+	movh.a	a15,#@his(invSampleFreq)
+	lea	a15,[a15]@los(invSampleFreq)
+	ld.w	d15,[a15]
+.L393:
+	movh	d0,#16128
+.L394:
+	mul.f	d15,d15,d0
+.L227:
+	mul.f	d3,d9,d15
+.L228:
+	movh.a	a15,#@his(invSampleFreq)
+	lea	a15,[a15]@los(invSampleFreq)
+	ld.w	d15,[a15]
+.L395:
+	movh	d0,#16128
+.L396:
+	mul.f	d15,d15,d0
+.L230:
+	mul.f	d2,d10,d15
+.L231:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+	ld.w	d4,[a15]
+.L233:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+	ld.w	d5,[a15]
+.L235:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	ld.w	d6,[a15]
+.L237:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	ld.w	d7,[a15]
+.L239:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+	movh.a	a2,#@his(q0)
+	lea	a2,[a2]@los(q0)
+	ld.w	d15,[a2]
+.L397:
+	insn.t	d0,d5:31,d5:31
+.L398:
+	mul.f	d0,d0,d1
+.L399:
+	msub.f	d0,d0,d6,d3
+.L400:
+	msub.f	d0,d0,d7,d2
+.L401:
+	add.f	d15,d15,d0
+	st.w	[a15],d15
+.L402:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+	movh.a	a2,#@his(q1)
+	lea	a2,[a2]@los(q1)
+	ld.w	d15,[a2]
+.L403:
+	mul.f	d0,d6,d2
+.L404:
+	madd.f	d0,d0,d4,d1
+.L405:
+	msub.f	d0,d0,d7,d3
+.L406:
+	add.f	d15,d15,d0
+	st.w	[a15],d15
+.L407:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	movh.a	a2,#@his(q2)
+	lea	a2,[a2]@los(q2)
+	ld.w	d15,[a2]
+.L408:
+	mul.f	d0,d4,d3
+.L409:
+	msub.f	d0,d0,d5,d2
+.L410:
+	madd.f	d0,d0,d7,d1
+.L411:
+	add.f	d15,d15,d0
+	st.w	[a15],d15
+.L412:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	movh.a	a2,#@his(q3)
+	lea	a2,[a2]@los(q3)
+	ld.w	d15,[a2]
+.L413:
+	mul.f	d0,d5,d3
+.L414:
+	madd.f	d0,d0,d4,d2
+.L415:
+	msub.f	d0,d0,d6,d1
+.L416:
+	add.f	d15,d15,d0
+	st.w	[a15],d15
+.L417:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	ld.w	d15,[a15]
+.L418:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	ld.w	d0,[a15]
+.L419:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	ld.w	d1,[a15]
+.L226:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	ld.w	d2,[a15]
+.L232:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+	ld.w	d3,[a15]
+.L229:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+	ld.w	d4,[a15]
+.L234:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+	ld.w	d5,[a15]
+.L236:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+	ld.w	d6,[a15]
+.L238:
+	mul.f	d5,d5,d6
+.L420:
+	madd.f	d3,d5,d3,d4
+.L421:
+	madd.f	d1,d3,d1,d2
+.L422:
+	madd.f	d4,d1,d15,d0
+	call	Mahony_invSqrt
+.L240:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+	movh.a	a2,#@his(q0)
+	lea	a2,[a2]@los(q0)
+	ld.w	d15,[a2]
+.L423:
+	mul.f	d15,d15,d2
+	st.w	[a15],d15
+.L424:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+	movh.a	a2,#@his(q1)
+	lea	a2,[a2]@los(q1)
+	ld.w	d15,[a2]
+.L425:
+	mul.f	d15,d15,d2
+	st.w	[a15],d15
+.L426:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	movh.a	a2,#@his(q2)
+	lea	a2,[a2]@los(q2)
+	ld.w	d15,[a2]
+.L427:
+	mul.f	d15,d15,d2
+	st.w	[a15],d15
+.L428:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	movh.a	a2,#@his(q3)
+	lea	a2,[a2]@los(q3)
+	ld.w	d15,[a2]
+.L429:
+	mul.f	d15,d15,d2
+	st.w	[a15],d15
+.L430:
+	ret
+.L139:
+	
+__MahonyAHRSupdateIMU_function_end:
+	.size	MahonyAHRSupdateIMU,__MahonyAHRSupdateIMU_function_end-MahonyAHRSupdateIMU
+.L49:
+	; End of function
+	
+	.sdecl	'.text.MahonyAHRS.QuaternionsToEulerAngle',code,cluster('QuaternionsToEulerAngle')
+	.sect	'.text.MahonyAHRS.QuaternionsToEulerAngle'
+	.align	2
+	
+	.global	QuaternionsToEulerAngle
+; Function QuaternionsToEulerAngle
+.L20:
+QuaternionsToEulerAngle:	.type	func
+	movh.a	a12,#@his(roll_mahony)
+	lea	a12,[a12]@los(roll_mahony)
+.L511:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+	ld.w	d15,[a15]
+.L512:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	ld.w	d0,[a15]
+.L513:
+	mul.f	d15,d15,d0
+.L514:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+	ld.w	d0,[a15]
+.L515:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	ld.w	d1,[a15]
+.L516:
+	msub.f	d15,d15,d0,d1
+.L517:
+	movh	d0,#49152
+.L518:
+	mul.f	d4,d15,d0
+	call	asinf
+.L519:
+	st.w	[a12],d2
+.L520:
+	movh.a	a15,#@his(eulerAngle)
+	lea	a15,[a15]@los(eulerAngle)
+.L521:
+	movh.a	a2,#@his(roll_mahony)
+	lea	a2,[a2]@los(roll_mahony)
+	ld.w	d15,[a2]
+.L522:
+	mov	d0,#12001
+	addih	d0,d0,#16997
+.L523:
+	mul.f	d15,d15,d0
+.L524:
+	st.w	[a15]4,d15
+.L525:
+	movh.a	a12,#@his(pitch_mahony)
+	lea	a12,[a12]@los(pitch_mahony)
+.L526:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+	ld.w	d15,[a15]
+.L527:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+	ld.w	d0,[a15]
+.L528:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	ld.w	d1,[a15]
+.L529:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	ld.w	d2,[a15]
+.L530:
+	mul.f	d1,d1,d2
+.L531:
+	madd.f	d4,d1,d15,d0
+.L532:
+	movh	d15,#16128
+.L533:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+	ld.w	d0,[a15]
+.L534:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+	ld.w	d1,[a15]
+.L535:
+	msub.f	d15,d15,d0,d1
+.L536:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	ld.w	d0,[a15]
+.L537:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	ld.w	d1,[a15]
+.L538:
+	msub.f	d5,d15,d0,d1
+	call	atan2f
+.L539:
+	st.w	[a12],d2
+.L540:
+	movh.a	a15,#@his(eulerAngle)
+	lea	a15,[a15]@los(eulerAngle)
+.L541:
+	movh.a	a2,#@his(pitch_mahony)
+	lea	a2,[a2]@los(pitch_mahony)
+	ld.w	d15,[a2]
+.L542:
+	mov	d0,#12001
+	addih	d0,d0,#16997
+.L543:
+	mul.f	d15,d15,d0
+.L544:
+	st.w	[a15],d15
+.L545:
+	movh.a	a12,#@his(yaw_mahony)
+	lea	a12,[a12]@los(yaw_mahony)
+.L546:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+	ld.w	d15,[a15]
+.L547:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	ld.w	d0,[a15]
+.L548:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+	ld.w	d1,[a15]
+.L549:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	ld.w	d2,[a15]
+.L550:
+	mul.f	d1,d1,d2
+.L551:
+	madd.f	d4,d1,d15,d0
+.L552:
+	movh	d15,#16128
+.L553:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	ld.w	d0,[a15]
+.L554:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	ld.w	d1,[a15]
+.L555:
+	msub.f	d15,d15,d0,d1
+.L556:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	ld.w	d0,[a15]
+.L557:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	ld.w	d1,[a15]
+.L558:
+	msub.f	d5,d15,d0,d1
+	call	atan2f
+.L559:
+	st.w	[a12],d2
+.L560:
+	movh.a	a15,#@his(eulerAngle)
+	lea	a15,[a15]@los(eulerAngle)
+.L561:
+	movh.a	a2,#@his(yaw_mahony)
+	lea	a2,[a2]@los(yaw_mahony)
+	ld.w	d15,[a2]
+.L562:
+	mov	d0,#12001
+	addih	d0,d0,#16997
+.L563:
+	mul.f	d15,d15,d0
+.L564:
+	st.w	[a15]8,d15
+.L565:
+	ret
+.L171:
+	
+__QuaternionsToEulerAngle_function_end:
+	.size	QuaternionsToEulerAngle,__QuaternionsToEulerAngle_function_end-QuaternionsToEulerAngle
+.L79:
+	; End of function
+	
+	.sdecl	'.text.MahonyAHRS.Mahony_GetAngles',code,cluster('Mahony_GetAngles')
+	.sect	'.text.MahonyAHRS.Mahony_GetAngles'
+	.align	2
+	
+	.global	Mahony_GetAngles
+; Function Mahony_GetAngles
+.L22:
+Mahony_GetAngles:	.type	func
+	sub.a	a10,#8
+.L241:
+	call	IMU_GetValue
+.L435:
+	movh.a	a15,#@his(imu_data)
+	lea	a15,[a15]@los(imu_data)
+.L436:
+	ld.w	d15,[a15]16
+	st.w	[a10],d15
+.L437:
+	movh.a	a15,#@his(imu_data)
+	lea	a15,[a15]@los(imu_data)
+.L438:
+	ld.w	d15,[a15]20
+	st.w	[a10]4,d15
+.L439:
+	movh.a	a15,#@his(imu_data)
+	lea	a15,[a15]@los(imu_data)
+.L440:
+	ld.w	d4,[a15]
+.L441:
+	movh.a	a15,#@his(imu_data)
+	lea	a15,[a15]@los(imu_data)
+.L442:
+	ld.w	d5,[a15]4
+.L443:
+	movh.a	a15,#@his(imu_data)
+	lea	a15,[a15]@los(imu_data)
+.L444:
+	ld.w	d6,[a15]8
+.L445:
+	movh.a	a15,#@his(imu_data)
+	lea	a15,[a15]@los(imu_data)
+.L446:
+	ld.w	d7,[a15]12
+	call	MahonyAHRSupdateIMU
+.L447:
+	call	QuaternionsToEulerAngle
+.L448:
+	ret
+.L157:
+	
+__Mahony_GetAngles_function_end:
+	.size	Mahony_GetAngles,__Mahony_GetAngles_function_end-Mahony_GetAngles
+.L54:
+	; End of function
+	
+	.sdecl	'.text.MahonyAHRS.Get_InitAngle',code,cluster('Get_InitAngle')
+	.sect	'.text.MahonyAHRS.Get_InitAngle'
+	.align	2
+	
+	.global	Get_InitAngle
+; Function Get_InitAngle
+.L24:
+Get_InitAngle:	.type	func
+	mov	d15,d4
+.L244:
+	mov	e8,d6,d5
+.L246:
+	mul.f	d0,d8,d8
+.L247:
+	madd.f	d0,d0,d15,d15
+.L248:
+	madd.f	d4,d0,d9,d9
+.L242:
+	call	Mahony_invSqrt
+.L243:
+	mul.f	d15,d15,d2
+.L250:
+	mul.f	d8,d8,d2
+.L252:
+	mul.f	d9,d9,d2
+.L177:
+	mov	e4,d9,d8
+	call	atan2f
+.L249:
+	mov	d10,d2
+.L255:
+	mul.f	d0,d9,d9
+.L570:
+	madd.f	d4,d0,d8,d8
+	call	sqrtf
+.L254:
+	insn.t	d4,d15:31,d15:31
+.L571:
+	mov	d5,d2
+	call	atan2f
+.L257:
+	mov	d9,d2
+.L253:
+	movh	d15,#16128
+.L245:
+	mul.f	d4,d10,d15
+	call	cosf
+.L258:
+	mov	d8,d2
+.L251:
+	movh	d15,#16128
+.L572:
+	mul.f	d4,d10,d15
+	call	sinf
+.L260:
+	mov	d10,d2
+.L256:
+	movh	d15,#16128
+.L573:
+	mul.f	d4,d9,d15
+	call	cosf
+.L261:
+	mov	d11,d2
+.L263:
+	movh	d15,#16128
+.L574:
+	mul.f	d4,d9,d15
+	call	sinf
+.L262:
+	mov	d9,d2
+.L259:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+.L575:
+	mul.f	d15,d8,d11
+.L576:
+	st.w	[a15],d15
+.L577:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+.L578:
+	mul.f	d15,d10,d11
+.L579:
+	st.w	[a15],d15
+.L580:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+.L581:
+	mul.f	d15,d8,d9
+.L582:
+	st.w	[a15],d15
+.L583:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+.L584:
+	insn.t	d15,d10:31,d10:31
+.L585:
+	mul.f	d15,d15,d9
+.L586:
+	st.w	[a15],d15
+.L587:
+	insn.t	d15,d10:31,d10:31
+	mul.f	d15,d15,d9
+.L588:
+	insn.t	d0,d10:31,d10:31
+	mul.f	d0,d0,d9
+.L589:
+	mul.f	d1,d8,d9
+.L590:
+	mul.f	d2,d8,d9
+.L264:
+	mul.f	d3,d8,d11
+.L591:
+	mul.f	d4,d8,d11
+.L592:
+	mul.f	d5,d10,d11
+.L593:
+	mul.f	d6,d10,d11
+.L594:
+	mul.f	d5,d5,d6
+.L595:
+	madd.f	d3,d5,d3,d4
+.L596:
+	madd.f	d1,d3,d1,d2
+.L597:
+	madd.f	d4,d1,d15,d0
+	call	Mahony_invSqrt
+.L265:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+	mul.f	d15,d8,d11
+.L598:
+	mul.f	d15,d15,d2
+	st.w	[a15],d15
+.L599:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+	mul.f	d15,d10,d11
+.L600:
+	mul.f	d15,d15,d2
+	st.w	[a15],d15
+.L601:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+	mul.f	d15,d8,d9
+.L602:
+	mul.f	d15,d15,d2
+	st.w	[a15],d15
+.L603:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+	insn.t	d15,d10:31,d10:31
+	mul.f	d15,d15,d9
+.L604:
+	mul.f	d15,d15,d2
+	st.w	[a15],d15
+.L605:
+	ret
+.L172:
+	
+__Get_InitAngle_function_end:
+	.size	Get_InitAngle,__Get_InitAngle_function_end-Get_InitAngle
+.L84:
+	; End of function
+	
+	.sdecl	'.text.MahonyAHRS.Mahony_Init',code,cluster('Mahony_Init')
+	.sect	'.text.MahonyAHRS.Mahony_Init'
+	.align	2
+	
+	.global	Mahony_Init
+; Function Mahony_Init
+.L26:
+Mahony_Init:	.type	func
+	mov	d8,d4
+.L267:
+	mov	d4,#6
+.L266:
+	call	imu660rc_init
+.L280:
+	movh.a	a15,#@his(twoKi)
+	lea	a15,[a15]@los(twoKi)
+.L281:
+	mov	d15,#0
+.L282:
+	st.w	[a15],d15
+.L283:
+	movh.a	a15,#@his(q0)
+	lea	a15,[a15]@los(q0)
+.L284:
+	movh	d15,#16256
+.L285:
+	st.w	[a15],d15
+.L286:
+	movh.a	a15,#@his(q1)
+	lea	a15,[a15]@los(q1)
+.L287:
+	mov	d15,#0
+.L288:
+	st.w	[a15],d15
+.L289:
+	movh.a	a15,#@his(q2)
+	lea	a15,[a15]@los(q2)
+.L290:
+	mov	d15,#0
+.L291:
+	st.w	[a15],d15
+.L292:
+	movh.a	a15,#@his(q3)
+	lea	a15,[a15]@los(q3)
+.L293:
+	mov	d15,#0
+.L294:
+	st.w	[a15],d15
+.L295:
+	movh.a	a15,#@his(integralFBx)
+	lea	a15,[a15]@los(integralFBx)
+.L296:
+	mov	d15,#0
+.L297:
+	st.w	[a15],d15
+.L298:
+	movh.a	a15,#@his(integralFBy)
+	lea	a15,[a15]@los(integralFBy)
+.L299:
+	mov	d15,#0
+.L300:
+	st.w	[a15],d15
+.L301:
+	movh.a	a15,#@his(integralFBz)
+	lea	a15,[a15]@los(integralFBz)
+.L302:
+	mov	d15,#0
+.L303:
+	st.w	[a15],d15
+.L304:
+	movh.a	a15,#@his(invSampleFreq)
+	lea	a15,[a15]@los(invSampleFreq)
+.L305:
+	movh	d15,#16256
+.L306:
+	div.f	d15,d15,d8
+.L307:
+	st.w	[a15],d15
+.L308:
+	mov	d4,#100
+	call	system_delay_ms
+.L309:
+	call	Mahony_CalibrateGyro
+.L310:
+	call	imu660rc_get_acc
+.L124:
+	movh.a	a15,#@his(imu660rc_acc_x)
+	lea	a15,[a15]@los(imu660rc_acc_x)
+	ld.h	d15,[a15]
+	itof	d15,d15
+	movh.a	a15,#@his(imu660rc_transition_factor)
+	lea	a15,[a15]@los(imu660rc_transition_factor)
+	ld.w	d0,[a15]
+	div.f	d4,d15,d0
+.L268:
+	movh.a	a15,#@his(imu660rc_acc_y)
+	lea	a15,[a15]@los(imu660rc_acc_y)
+	ld.h	d15,[a15]
+	itof	d15,d15
+	movh.a	a15,#@his(imu660rc_transition_factor)
+	lea	a15,[a15]@los(imu660rc_transition_factor)
+	ld.w	d0,[a15]
+	div.f	d5,d15,d0
+.L270:
+	movh.a	a15,#@his(imu660rc_acc_z)
+	lea	a15,[a15]@los(imu660rc_acc_z)
+	ld.h	d15,[a15]
+	itof	d15,d15
+	movh.a	a15,#@his(imu660rc_transition_factor)
+	lea	a15,[a15]@los(imu660rc_transition_factor)
+	ld.w	d0,[a15]
+	div.f	d6,d15,d0
+.L271:
+	call	Get_InitAngle
+.L269:
+	ret
+.L121:
+	
+__Mahony_Init_function_end:
+	.size	Mahony_Init,__Mahony_Init_function_end-Mahony_Init
+.L39:
+	; End of function
+	
+	.sdecl	'.text.MahonyAHRS.get_yaw',code,cluster('get_yaw')
+	.sect	'.text.MahonyAHRS.get_yaw'
+	.align	2
+	
+	.global	get_yaw
+; Function get_yaw
+.L28:
+get_yaw:	.type	func
+	movh.a	a15,#@his(eulerAngle)
+	lea	a15,[a15]@los(eulerAngle)
+.L453:
+	ld.w	d2,[a15]8
+.L454:
+	j	.L10
+.L10:
+	ret
+.L158:
+	
+__get_yaw_function_end:
+	.size	get_yaw,__get_yaw_function_end-get_yaw
+.L59:
+	; End of function
+	
+	.sdecl	'.text.MahonyAHRS.imu660rc_init_main',code,cluster('imu660rc_init_main')
+	.sect	'.text.MahonyAHRS.imu660rc_init_main'
+	.align	2
+	
+	.global	imu660rc_init_main
+; Function imu660rc_init_main
+.L30:
+imu660rc_init_main:	.type	func
+	movh	d4,#17402
+	call	Mahony_Init
+.L459:
+	mov	d4,#1
+	mov	d5,#2000
+	call	pit_init
+.L460:
+	ret
+.L159:
+	
+__imu660rc_init_main_function_end:
+	.size	imu660rc_init_main,__imu660rc_init_main_function_end-imu660rc_init_main
+.L64:
+	; End of function
+	
+	.sdecl	'.bss.MahonyAHRS.twoKi',data,cluster('twoKi')
+	.sect	'.bss.MahonyAHRS.twoKi'
+	.global	twoKi
+	.align	2
+twoKi:	.type	object
+	.size	twoKi,4
+	.space	4
+	.sdecl	'.bss.MahonyAHRS.q0',data,cluster('q0')
+	.sect	'.bss.MahonyAHRS.q0'
+	.global	q0
+	.align	2
+q0:	.type	object
+	.size	q0,4
+	.space	4
+	.sdecl	'.bss.MahonyAHRS.q1',data,cluster('q1')
+	.sect	'.bss.MahonyAHRS.q1'
+	.global	q1
+	.align	2
+q1:	.type	object
+	.size	q1,4
+	.space	4
+	.sdecl	'.bss.MahonyAHRS.q2',data,cluster('q2')
+	.sect	'.bss.MahonyAHRS.q2'
+	.global	q2
+	.align	2
+q2:	.type	object
+	.size	q2,4
+	.space	4
+	.sdecl	'.bss.MahonyAHRS.q3',data,cluster('q3')
+	.sect	'.bss.MahonyAHRS.q3'
+	.global	q3
+	.align	2
+q3:	.type	object
+	.size	q3,4
+	.space	4
+	.sdecl	'.bss.MahonyAHRS.integralFBx',data,cluster('integralFBx')
+	.sect	'.bss.MahonyAHRS.integralFBx'
+	.global	integralFBx
+	.align	2
+integralFBx:	.type	object
+	.size	integralFBx,4
+	.space	4
+	.sdecl	'.bss.MahonyAHRS.integralFBy',data,cluster('integralFBy')
+	.sect	'.bss.MahonyAHRS.integralFBy'
+	.global	integralFBy
+	.align	2
+integralFBy:	.type	object
+	.size	integralFBy,4
+	.space	4
+	.sdecl	'.bss.MahonyAHRS.integralFBz',data,cluster('integralFBz')
+	.sect	'.bss.MahonyAHRS.integralFBz'
+	.global	integralFBz
+	.align	2
+integralFBz:	.type	object
+	.size	integralFBz,4
+	.space	4
+	.sdecl	'.bss.MahonyAHRS.invSampleFreq',data,cluster('invSampleFreq')
+	.sect	'.bss.MahonyAHRS.invSampleFreq'
+	.global	invSampleFreq
+	.align	2
+invSampleFreq:	.type	object
+	.size	invSampleFreq,4
+	.space	4
+	.sdecl	'.bss.MahonyAHRS.roll_mahony',data,cluster('roll_mahony')
+	.sect	'.bss.MahonyAHRS.roll_mahony'
+	.global	roll_mahony
+	.align	2
+roll_mahony:	.type	object
+	.size	roll_mahony,4
+	.space	4
+	.sdecl	'.bss.MahonyAHRS.pitch_mahony',data,cluster('pitch_mahony')
+	.sect	'.bss.MahonyAHRS.pitch_mahony'
+	.global	pitch_mahony
+	.align	2
+pitch_mahony:	.type	object
+	.size	pitch_mahony,4
+	.space	4
+	.sdecl	'.bss.MahonyAHRS.yaw_mahony',data,cluster('yaw_mahony')
+	.sect	'.bss.MahonyAHRS.yaw_mahony'
+	.global	yaw_mahony
+	.align	2
+yaw_mahony:	.type	object
+	.size	yaw_mahony,4
+	.space	4
+	.sdecl	'.bss.MahonyAHRS.GZ',data,cluster('GZ')
+	.sect	'.bss.MahonyAHRS.GZ'
+	.global	GZ
+	.align	2
+GZ:	.type	object
+	.size	GZ,4
+	.space	4
+	.sdecl	'.bss.MahonyAHRS.imu_data',data,cluster('imu_data')
+	.sect	'.bss.MahonyAHRS.imu_data'
+	.global	imu_data
+	.align	4
+imu_data:	.type	object
+	.size	imu_data,24
+	.space	24
+	.sdecl	'.bss.MahonyAHRS.eulerAngle',data,cluster('eulerAngle')
+	.sect	'.bss.MahonyAHRS.eulerAngle'
+	.global	eulerAngle
+	.align	4
+eulerAngle:	.type	object
+	.size	eulerAngle,12
+	.space	12
+	.sdecl	'.data.MahonyAHRS.gyro_offset_x',data,cluster('gyro_offset_x')
+	.sect	'.data.MahonyAHRS.gyro_offset_x'
+	.global	gyro_offset_x
+	.align	2
+gyro_offset_x:	.type	object
+	.size	gyro_offset_x,4
+	.space	4
+	.sdecl	'.data.MahonyAHRS.gyro_offset_y',data,cluster('gyro_offset_y')
+	.sect	'.data.MahonyAHRS.gyro_offset_y'
+	.global	gyro_offset_y
+	.align	2
+gyro_offset_y:	.type	object
+	.size	gyro_offset_y,4
+	.space	4
+	.sdecl	'.data.MahonyAHRS.gyro_offset_z',data,cluster('gyro_offset_z')
+	.sect	'.data.MahonyAHRS.gyro_offset_z'
+	.global	gyro_offset_z
+	.align	2
+gyro_offset_z:	.type	object
+	.size	gyro_offset_z,4
+	.space	4
+	.calls	'Mahony_CalibrateGyro','imu660rc_get_gyro'
+	.calls	'Mahony_CalibrateGyro','system_delay_ms'
+	.calls	'IMU_GetValue','imu660rc_get_gyro'
+	.calls	'IMU_GetValue','imu660rc_get_acc'
+	.calls	'MahonyAHRSupdateIMU','Mahony_invSqrt'
+	.calls	'QuaternionsToEulerAngle','asinf'
+	.calls	'QuaternionsToEulerAngle','atan2f'
+	.calls	'Mahony_GetAngles','IMU_GetValue'
+	.calls	'Mahony_GetAngles','MahonyAHRSupdateIMU'
+	.calls	'Mahony_GetAngles','QuaternionsToEulerAngle'
+	.calls	'Get_InitAngle','Mahony_invSqrt'
+	.calls	'Get_InitAngle','atan2f'
+	.calls	'Get_InitAngle','sqrtf'
+	.calls	'Get_InitAngle','cosf'
+	.calls	'Get_InitAngle','sinf'
+	.calls	'Mahony_Init','imu660rc_init'
+	.calls	'Mahony_Init','system_delay_ms'
+	.calls	'Mahony_Init','Mahony_CalibrateGyro'
+	.calls	'Mahony_Init','imu660rc_get_acc'
+	.calls	'Mahony_Init','Get_InitAngle'
+	.calls	'imu660rc_init_main','Mahony_Init'
+	.calls	'imu660rc_init_main','pit_init'
+	.calls	'Mahony_invSqrt','',0
+	.calls	'Mahony_CalibrateGyro','',0
+	.calls	'IMU_GetValue','',0
+	.calls	'MahonyAHRSupdateIMU','',0
+	.calls	'QuaternionsToEulerAngle','',0
+	.calls	'Mahony_GetAngles','',8
+	.calls	'Get_InitAngle','',0
+	.calls	'Mahony_Init','',0
+	.calls	'get_yaw','',0
+	.extern	sinf
+	.extern	cosf
+	.extern	asinf
+	.extern	atan2f
+	.extern	sqrtf
+	.extern	imu660rc_transition_factor
+	.extern	imu660rc_gyro_x
+	.extern	imu660rc_gyro_y
+	.extern	imu660rc_gyro_z
+	.extern	imu660rc_acc_x
+	.extern	imu660rc_acc_y
+	.extern	imu660rc_acc_z
+	.extern	imu660rc_get_acc
+	.extern	imu660rc_get_gyro
+	.extern	imu660rc_init
+	.extern	pit_init
+	.extern	system_delay_ms
+	.calls	'imu660rc_init_main','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L32:
+	.word	1723
+	.half	3
+	.word	.L33
+	.byte	4
+.L31:
+	.byte	1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1
+	.word	.L34
+.L122:
+	.byte	2
+	.byte	'float',0,4,4,3
+	.byte	'sinf',0,1,89,25
+	.word	146
+	.byte	1,1,1,1,4,1,89,43
+	.word	146
+	.byte	0,3
+	.byte	'cosf',0,1,92,25
+	.word	146
+	.byte	1,1,1,1,4,1,92,43
+	.word	146
+	.byte	0,3
+	.byte	'asinf',0,1,98,25
+	.word	146
+	.byte	1,1,1,1,4,1,98,43
+	.word	146
+	.byte	0,3
+	.byte	'atan2f',0,1,107,25
+	.word	146
+	.byte	1,1,1,1,4,1,107,43
+	.word	146
+	.byte	4,1,107,50
+	.word	146
+	.byte	0,3
+	.byte	'sqrtf',0,1,187,1,25
+	.word	146
+	.byte	1,1,1,1,4,1,187,1,43
+	.word	146
+	.byte	0,5
+	.byte	'imu660rc_get_acc',0,2,185,1,9,1,1,1,1,5
+	.byte	'imu660rc_get_gyro',0,2,186,1,9,1,1,1,1,2
+	.byte	'unsigned char',0,1,8,6,2,120,9,1,7
+	.byte	'IMU660RC_QUARTERNION_15HZ',0,0,7
+	.byte	'IMU660RC_QUARTERNION_30HZ',0,1,7
+	.byte	'IMU660RC_QUARTERNION_60HZ',0,2,7
+	.byte	'IMU660RC_QUARTERNION_120HZ',0,3,7
+	.byte	'IMU660RC_QUARTERNION_240HZ',0,4,7
+	.byte	'IMU660RC_QUARTERNION_480HZ',0,5,7
+	.byte	'IMU660RC_QUARTERNION_DISABLE',0,6,0,3
+	.byte	'imu660rc_init',0,2,207,1,9
+	.word	352
+	.byte	1,1,1,1,8
+	.byte	'quarternion_rate',0,2,207,1,71
+	.word	369
+	.byte	0
+.L132:
+	.byte	2
+	.byte	'unsigned short int',0,2,7,6,3,41,9,1,7
+	.byte	'CCU60_CH0',0,0,7
+	.byte	'CCU60_CH1',0,1,7
+	.byte	'CCU61_CH0',0,2,7
+	.byte	'CCU61_CH1',0,3,0,2
+	.byte	'unsigned long int',0,4,7,9
+	.byte	'pit_init',0,3,58,6,1,1,1,1,8
+	.byte	'pit_index',0,3,58,46
+	.word	653
+	.byte	8
+	.byte	'time',0,3,58,64
+	.word	707
+	.byte	0
+.L164:
+	.byte	2
+	.byte	'long int',0,4,5,2
+	.byte	'int',0,4,5,10
+	.byte	'system_delay_ms',0,4,56,9
+	.word	789
+	.byte	1,1,1,2
+	.byte	'short int',0,2,5,11
+	.byte	'__wchar_t',0,4,1,1
+	.word	823
+	.byte	2
+	.byte	'unsigned int',0,4,7,11
+	.byte	'__size_t',0,4,1,1
+	.word	854
+	.byte	11
+	.byte	'__ptrdiff_t',0,4,1,1
+	.word	789
+	.byte	12,1,13
+	.word	907
+	.byte	11
+	.byte	'__codeptr',0,4,1,1
+	.word	909
+	.byte	11
+	.byte	'__intptr_t',0,4,1,1
+	.word	789
+	.byte	11
+	.byte	'__uintptr_t',0,4,1,1
+	.word	854
+	.byte	11
+	.byte	'_iob_flag_t',0,5,82,25
+	.word	631
+	.byte	11
+	.byte	'uint8',0,6,105,29
+	.word	352
+	.byte	11
+	.byte	'uint16',0,6,109,29
+	.word	631
+	.byte	11
+	.byte	'uint32',0,6,113,29
+	.word	707
+	.byte	2
+	.byte	'unsigned long long int',0,8,7,11
+	.byte	'uint64',0,6,118,29
+	.word	1035
+	.byte	11
+	.byte	'sint16',0,6,126,29
+	.word	823
+	.byte	11
+	.byte	'sint32',0,6,131,1,29
+	.word	777
+	.byte	2
+	.byte	'long long int',0,8,5,11
+	.byte	'sint64',0,6,138,1,29
+	.word	1107
+	.byte	11
+	.byte	'float32',0,6,167,1,29
+	.word	146
+	.byte	14
+	.byte	'void',0,13
+	.word	1157
+	.byte	11
+	.byte	'pvoid',0,7,57,28
+	.word	1163
+	.byte	11
+	.byte	'Ifx_TickTime',0,7,79,28
+	.word	1107
+	.byte	2
+	.byte	'char',0,1,6,11
+	.byte	'int8',0,8,54,29
+	.word	1203
+	.byte	11
+	.byte	'int16',0,8,55,29
+	.word	823
+	.byte	11
+	.byte	'int32',0,8,56,29
+	.word	789
+	.byte	11
+	.byte	'int64',0,8,57,29
+	.word	1107
+	.byte	11
+	.byte	'imu660rc_quarternion_rate_config',0,2,129,1,2
+	.word	369
+	.byte	15,8
+	.word	146
+	.byte	16,1,0,17
+	.byte	'imu660rc_transition_factor',0,2,178,1,14
+	.word	1308
+	.byte	1,1,17
+	.byte	'imu660rc_gyro_x',0,2,179,1,14
+	.word	823
+	.byte	1,1,17
+	.byte	'imu660rc_gyro_y',0,2,179,1,33
+	.word	823
+	.byte	1,1,17
+	.byte	'imu660rc_gyro_z',0,2,179,1,53
+	.word	823
+	.byte	1,1,17
+	.byte	'imu660rc_acc_x',0,2,180,1,14
+	.word	823
+	.byte	1,1,17
+	.byte	'imu660rc_acc_y',0,2,180,1,33
+	.word	823
+	.byte	1,1,17
+	.byte	'imu660rc_acc_z',0,2,180,1,53
+	.word	823
+	.byte	1,1
+.L184:
+	.byte	18,9,13,9,24,19
+	.byte	'gyro_x',0
+	.word	146
+	.byte	4,2,35,0,19
+	.byte	'gyro_y',0
+	.word	146
+	.byte	4,2,35,4,19
+	.byte	'gyro_z',0
+	.word	146
+	.byte	4,2,35,8,19
+	.byte	'acc_x',0
+	.word	146
+	.byte	4,2,35,12,19
+	.byte	'acc_y',0
+	.word	146
+	.byte	4,2,35,16,19
+	.byte	'acc_z',0
+	.word	146
+	.byte	4,2,35,20,0,11
+	.byte	'imu_param_t',0,9,21,3
+	.word	1514
+.L185:
+	.byte	18,9,23,9,12,19
+	.byte	'pitch',0
+	.word	146
+	.byte	4,2,35,0,19
+	.byte	'roll',0
+	.word	146
+	.byte	4,2,35,4,19
+	.byte	'yaw',0
+	.word	146
+	.byte	4,2,35,8,0,11
+	.byte	'euler_param_t',0,9,28,3
+	.word	1633
+	.byte	11
+	.byte	'pit_index_enum',0,3,47,2
+	.word	653
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L33:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,58,15,59,15,57,15
+	.byte	73,19,54,15,39,12,63,12,60,12,0,0,4,5,0,58,15,59,15,57,15,73,19,0,0,5,46,0,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,60,12,0,0,6,4,1,58,15,59,15,57,15,11,15,0,0,7,40,0,3,8,28,13,0,0,8,5,0,3,8,58,15,59,15,57
+	.byte	15,73,19,0,0,9,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,10,46,0,3,8,58,15,59,15,57,15,73
+	.byte	19,54,15,63,12,60,12,0,0,11,22,0,3,8,58,15,59,15,57,15,73,19,0,0,12,21,0,54,15,0,0,13,15,0,73,19,0,0,14
+	.byte	59,0,3,8,0,0,15,1,1,11,15,73,19,0,0,16,33,0,47,15,0,0,17,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12
+	.byte	0,0,18,19,1,58,15,59,15,57,15,11,15,0,0,19,13,0,3,8,73,19,11,15,56,9,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L34:
+	.word	.L273-.L272
+.L272:
+	.half	3
+	.word	.L275-.L274
+.L274:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\ADS\\plugins\\com.infineon.aurix.tools_1.6.0\\build_system\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	'D:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\zf_device',0
+	.byte	'D:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\zf_driver',0
+	.byte	'D:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	'D:\\\\ADSone\\\\Soberup_2026\\\\libraries\\\\zf_common',0,0
+	.byte	'math.h',0,1,0,0
+	.byte	'zf_device_imu660rc.h',0,2,0,0
+	.byte	'zf_driver_pit.h',0,3,0,0
+	.byte	'../code/MahonyAHRS.c',0,0,0,0
+	.byte	'stdio.h',0,1,0,0
+	.byte	'Platform_Types.h',0,4,0,0
+	.byte	'ifx_types.h',0,4,0,0
+	.byte	'zf_common_typedef.h',0,5,0,0
+	.byte	'..\\code\\MahonyAHRS.h',0,0,0,0,0
+.L275:
+.L273:
+	.sdecl	'.debug_info',debug,cluster('Mahony_Init')
+	.sect	'.debug_info'
+.L35:
+	.word	297
+	.half	3
+	.word	.L36
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1
+	.word	.L38,.L37
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'Mahony_Init',0,1,203,1,6,1,1,1
+	.word	.L26,.L121,.L25
+	.byte	4
+	.byte	'sampleFrequency',0,1,203,1,24
+	.word	.L122,.L123
+	.byte	5
+	.word	.L26,.L121
+	.byte	5
+	.word	.L124,.L121
+	.byte	6
+	.byte	'init_ax',0,1,220,1,11
+	.word	.L122,.L125
+	.byte	6
+	.byte	'init_ay',0,1,221,1,11
+	.word	.L122,.L126
+	.byte	6
+	.byte	'init_az',0,1,222,1,11
+	.word	.L122,.L127
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Mahony_Init')
+	.sect	'.debug_abbrev'
+.L36:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Mahony_Init')
+	.sect	'.debug_line'
+.L37:
+	.word	.L277-.L276
+.L276:
+	.half	3
+	.word	.L279-.L278
+.L278:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/MahonyAHRS.c',0,0,0,0,0
+.L279:
+	.byte	5,6,7,0,5,2
+	.word	.L26
+	.byte	3,202,1,1,5,19,9
+	.half	.L267-.L26
+	.byte	3,3,1,5,5,9
+	.half	.L280-.L267
+	.byte	3,2,1,5,13,9
+	.half	.L281-.L280
+	.byte	1,5,11,9
+	.half	.L282-.L281
+	.byte	1,5,5,9
+	.half	.L283-.L282
+	.byte	3,1,1,5,10,9
+	.half	.L284-.L283
+	.byte	1,5,8,9
+	.half	.L285-.L284
+	.byte	1,5,16,9
+	.half	.L286-.L285
+	.byte	1,5,21,9
+	.half	.L287-.L286
+	.byte	1,5,19,9
+	.half	.L288-.L287
+	.byte	1,5,27,9
+	.half	.L289-.L288
+	.byte	1,5,32,9
+	.half	.L290-.L289
+	.byte	1,5,30,9
+	.half	.L291-.L290
+	.byte	1,5,38,9
+	.half	.L292-.L291
+	.byte	1,5,43,9
+	.half	.L293-.L292
+	.byte	1,5,41,9
+	.half	.L294-.L293
+	.byte	1,5,5,9
+	.half	.L295-.L294
+	.byte	3,1,1,5,19,9
+	.half	.L296-.L295
+	.byte	1,5,17,9
+	.half	.L297-.L296
+	.byte	1,5,25,9
+	.half	.L298-.L297
+	.byte	1,5,39,9
+	.half	.L299-.L298
+	.byte	1,5,37,9
+	.half	.L300-.L299
+	.byte	1,5,45,9
+	.half	.L301-.L300
+	.byte	1,5,59,9
+	.half	.L302-.L301
+	.byte	1,5,57,9
+	.half	.L303-.L302
+	.byte	1,5,5,9
+	.half	.L304-.L303
+	.byte	3,1,1,5,21,9
+	.half	.L305-.L304
+	.byte	1,5,26,9
+	.half	.L306-.L305
+	.byte	1,5,19,9
+	.half	.L307-.L306
+	.byte	1,5,5,9
+	.half	.L308-.L307
+	.byte	3,2,1,5,25,9
+	.half	.L309-.L308
+	.byte	3,3,1,5,21,9
+	.half	.L310-.L309
+	.byte	3,3,1,9
+	.half	.L124-.L310
+	.byte	3,1,1,9
+	.half	.L268-.L124
+	.byte	3,1,1,9
+	.half	.L270-.L268
+	.byte	3,1,1,5,37,9
+	.half	.L271-.L270
+	.byte	3,2,1,5,1,9
+	.half	.L269-.L271
+	.byte	3,1,1,7,9
+	.half	.L39-.L269
+	.byte	0,1,1
+.L277:
+	.sdecl	'.debug_ranges',debug,cluster('Mahony_Init')
+	.sect	'.debug_ranges'
+.L38:
+	.word	-1,.L26,0,.L39-.L26,0,0
+	.sdecl	'.debug_info',debug,cluster('Mahony_CalibrateGyro')
+	.sect	'.debug_info'
+.L40:
+	.word	315
+	.half	3
+	.word	.L41
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1
+	.word	.L43,.L42
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'Mahony_CalibrateGyro',0,1,42,6,1,1,1
+	.word	.L14,.L128,.L13
+	.byte	4
+	.word	.L14,.L128
+	.byte	5
+	.byte	'sum_x',0,1,44,11
+	.word	.L122,.L129
+	.byte	5
+	.byte	'sum_y',0,1,44,25
+	.word	.L122,.L130
+	.byte	5
+	.byte	'sum_z',0,1,44,39
+	.word	.L122,.L131
+	.byte	5
+	.byte	'sample_count',0,1,45,14
+	.word	.L132,.L133
+	.byte	4
+	.word	.L134,.L135
+	.byte	5
+	.byte	'i',0,1,47,18
+	.word	.L132,.L136
+	.byte	6
+	.word	.L137,.L138
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Mahony_CalibrateGyro')
+	.sect	'.debug_abbrev'
+.L41:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,6,11,0
+	.byte	17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Mahony_CalibrateGyro')
+	.sect	'.debug_line'
+.L42:
+	.word	.L312-.L311
+.L311:
+	.half	3
+	.word	.L314-.L313
+.L313:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/MahonyAHRS.c',0,0,0,0,0
+.L314:
+	.byte	5,17,7,0,5,2
+	.word	.L14
+	.byte	3,43,1,5,31,9
+	.half	.L191-.L14
+	.byte	1,5,45,9
+	.half	.L192-.L191
+	.byte	1,5,27,9
+	.half	.L193-.L192
+	.byte	3,1,1,5,20,9
+	.half	.L134-.L193
+	.byte	3,2,1,5,41,9
+	.half	.L194-.L134
+	.byte	1,5,26,9
+	.half	.L4-.L194
+	.byte	3,2,1,5,18,9
+	.half	.L315-.L4
+	.byte	3,3,1,5,15,9
+	.half	.L316-.L315
+	.byte	1,5,18,9
+	.half	.L317-.L316
+	.byte	3,1,1,5,15,9
+	.half	.L318-.L317
+	.byte	1,5,18,9
+	.half	.L319-.L318
+	.byte	3,1,1,5,15,9
+	.half	.L320-.L319
+	.byte	1,5,9,9
+	.half	.L137-.L320
+	.byte	3,2,1,5,44,9
+	.half	.L138-.L137
+	.byte	3,119,1,5,41,9
+	.half	.L3-.L138
+	.byte	1,5,5,7,9
+	.half	.L135-.L3
+	.byte	3,13,1,5,29,9
+	.half	.L321-.L135
+	.byte	1,5,27,9
+	.half	.L322-.L321
+	.byte	1,5,19,9
+	.half	.L323-.L322
+	.byte	1,5,5,9
+	.half	.L324-.L323
+	.byte	3,1,1,5,29,9
+	.half	.L325-.L324
+	.byte	1,5,27,9
+	.half	.L326-.L325
+	.byte	1,5,19,9
+	.half	.L327-.L326
+	.byte	1,5,5,9
+	.half	.L328-.L327
+	.byte	3,1,1,5,29,9
+	.half	.L329-.L328
+	.byte	1,5,27,9
+	.half	.L330-.L329
+	.byte	1,5,19,9
+	.half	.L331-.L330
+	.byte	1,5,1,9
+	.half	.L332-.L331
+	.byte	3,1,1,7,9
+	.half	.L44-.L332
+	.byte	0,1,1
+.L312:
+	.sdecl	'.debug_ranges',debug,cluster('Mahony_CalibrateGyro')
+	.sect	'.debug_ranges'
+.L43:
+	.word	-1,.L14,0,.L44-.L14,0,0
+	.sdecl	'.debug_info',debug,cluster('MahonyAHRSupdateIMU')
+	.sect	'.debug_info'
+.L45:
+	.word	488
+	.half	3
+	.word	.L46
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1
+	.word	.L48,.L47
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'MahonyAHRSupdateIMU',0,1,93,6,1,1,1
+	.word	.L18,.L139,.L17
+	.byte	4
+	.byte	'gx',0,1,93,32
+	.word	.L122,.L140
+	.byte	4
+	.byte	'gy',0,1,93,42
+	.word	.L122,.L141
+	.byte	4
+	.byte	'gz',0,1,93,52
+	.word	.L122,.L142
+	.byte	4
+	.byte	'ax',0,1,93,62
+	.word	.L122,.L143
+	.byte	4
+	.byte	'ay',0,1,93,72
+	.word	.L122,.L144
+	.byte	4
+	.byte	'az',0,1,93,82
+	.word	.L122,.L145
+	.byte	5
+	.word	.L18,.L139
+	.byte	6
+	.byte	'recipNorm',0,1,95,11
+	.word	.L122,.L146
+	.byte	6
+	.byte	'halfvx',0,1,96,11
+	.word	.L122,.L147
+	.byte	6
+	.byte	'halfvy',0,1,96,19
+	.word	.L122,.L148
+	.byte	6
+	.byte	'halfvz',0,1,96,27
+	.word	.L122,.L149
+	.byte	6
+	.byte	'halfex',0,1,97,11
+	.word	.L122,.L150
+	.byte	6
+	.byte	'halfey',0,1,97,19
+	.word	.L122,.L151
+	.byte	6
+	.byte	'halfez',0,1,97,27
+	.word	.L122,.L152
+	.byte	6
+	.byte	'qa',0,1,98,11
+	.word	.L122,.L153
+	.byte	6
+	.byte	'qb',0,1,98,15
+	.word	.L122,.L154
+	.byte	6
+	.byte	'qc',0,1,98,19
+	.word	.L122,.L155
+	.byte	6
+	.byte	'qd',0,1,98,23
+	.word	.L122,.L156
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('MahonyAHRSupdateIMU')
+	.sect	'.debug_abbrev'
+.L46:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('MahonyAHRSupdateIMU')
+	.sect	'.debug_line'
+.L47:
+	.word	.L334-.L333
+.L333:
+	.half	3
+	.word	.L336-.L335
+.L335:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/MahonyAHRS.c',0,0,0,0,0
+.L336:
+	.byte	5,6,7,0,5,2
+	.word	.L18
+	.byte	3,220,0,1,5,14,9
+	.half	.L203-.L18
+	.byte	3,7,1,5,10,9
+	.half	.L337-.L203
+	.byte	1,5,30,7,9
+	.half	.L338-.L337
+	.byte	1,5,46,9
+	.half	.L339-.L338
+	.byte	1,5,49,9
+	.half	.L5-.L339
+	.byte	3,2,1,5,44,9
+	.half	.L206-.L5
+	.byte	1,5,54,9
+	.half	.L207-.L206
+	.byte	1,5,12,9
+	.half	.L199-.L207
+	.byte	3,1,1,9
+	.half	.L208-.L199
+	.byte	3,1,1,9
+	.half	.L202-.L208
+	.byte	3,1,1,5,18,9
+	.half	.L205-.L202
+	.byte	3,2,1,5,23,9
+	.half	.L340-.L205
+	.byte	1,5,21,9
+	.half	.L341-.L340
+	.byte	1,5,28,9
+	.half	.L342-.L341
+	.byte	1,5,33,9
+	.half	.L343-.L342
+	.byte	1,5,26,9
+	.half	.L344-.L343
+	.byte	1,5,18,9
+	.half	.L212-.L344
+	.byte	3,1,1,5,23,9
+	.half	.L345-.L212
+	.byte	1,5,28,9
+	.half	.L346-.L345
+	.byte	1,5,33,9
+	.half	.L347-.L346
+	.byte	1,5,31,9
+	.half	.L209-.L347
+	.byte	1,5,26,9
+	.half	.L348-.L209
+	.byte	1,5,35,9
+	.half	.L213-.L348
+	.byte	3,1,1,5,40,9
+	.half	.L349-.L213
+	.byte	1,5,18,9
+	.half	.L350-.L349
+	.byte	1,5,23,9
+	.half	.L351-.L350
+	.byte	1,5,21,9
+	.half	.L352-.L351
+	.byte	1,5,28,9
+	.half	.L353-.L352
+	.byte	1,5,26,9
+	.half	.L354-.L353
+	.byte	1,5,33,9
+	.half	.L355-.L354
+	.byte	1,5,22,9
+	.half	.L214-.L355
+	.byte	3,2,1,5,31,9
+	.half	.L356-.L214
+	.byte	1,5,22,9
+	.half	.L216-.L356
+	.byte	3,1,1,5,31,9
+	.half	.L357-.L216
+	.byte	1,5,22,9
+	.half	.L217-.L357
+	.byte	3,1,1,5,31,9
+	.half	.L215-.L217
+	.byte	1,5,12,9
+	.half	.L211-.L215
+	.byte	3,2,1,5,20,9
+	.half	.L358-.L211
+	.byte	1,5,9,9
+	.half	.L359-.L358
+	.byte	1,5,13,9
+	.half	.L360-.L359
+	.byte	3,11,1,5,27,9
+	.half	.L361-.L360
+	.byte	1,5,25,9
+	.half	.L362-.L361
+	.byte	1,5,13,9
+	.half	.L363-.L362
+	.byte	3,1,1,5,27,9
+	.half	.L364-.L363
+	.byte	1,5,25,9
+	.half	.L365-.L364
+	.byte	1,5,13,9
+	.half	.L366-.L365
+	.byte	3,1,1,5,27,9
+	.half	.L367-.L366
+	.byte	1,5,25,9
+	.half	.L368-.L367
+	.byte	1,5,59,9
+	.half	.L369-.L368
+	.byte	3,117,1,5,13,9
+	.half	.L8-.L369
+	.byte	1,5,28,9
+	.half	.L370-.L8
+	.byte	1,5,34,9
+	.half	.L371-.L370
+	.byte	1,5,46,9
+	.half	.L372-.L371
+	.byte	1,5,13,9
+	.half	.L373-.L372
+	.byte	1,5,25,9
+	.half	.L210-.L373
+	.byte	1,5,13,9
+	.half	.L374-.L210
+	.byte	3,1,1,5,28,9
+	.half	.L375-.L374
+	.byte	1,5,34,9
+	.half	.L376-.L375
+	.byte	1,5,46,9
+	.half	.L377-.L376
+	.byte	1,5,13,9
+	.half	.L378-.L377
+	.byte	1,5,25,9
+	.half	.L379-.L378
+	.byte	1,5,13,9
+	.half	.L380-.L379
+	.byte	3,1,1,5,28,9
+	.half	.L381-.L380
+	.byte	1,5,34,9
+	.half	.L382-.L381
+	.byte	1,5,46,9
+	.half	.L383-.L382
+	.byte	1,5,13,9
+	.half	.L384-.L383
+	.byte	1,5,25,9
+	.half	.L385-.L384
+	.byte	1,5,19,9
+	.half	.L386-.L385
+	.byte	3,1,1,5,16,9
+	.half	.L218-.L386
+	.byte	1,5,19,9
+	.half	.L387-.L218
+	.byte	3,1,1,5,16,9
+	.half	.L219-.L387
+	.byte	1,5,19,9
+	.half	.L388-.L219
+	.byte	3,1,1,5,16,9
+	.half	.L220-.L388
+	.byte	1,5,15,9
+	.half	.L9-.L220
+	.byte	3,9,1,5,12,9
+	.half	.L221-.L9
+	.byte	1,5,15,9
+	.half	.L389-.L221
+	.byte	3,1,1,5,12,9
+	.half	.L222-.L389
+	.byte	1,5,15,9
+	.half	.L390-.L222
+	.byte	3,1,1,5,12,9
+	.half	.L223-.L390
+	.byte	1,5,20,9
+	.half	.L7-.L223
+	.byte	3,3,1,5,12,9
+	.half	.L391-.L7
+	.byte	1,5,18,9
+	.half	.L392-.L391
+	.byte	1,5,8,9
+	.half	.L224-.L392
+	.byte	1,5,20,9
+	.half	.L225-.L224
+	.byte	3,1,1,5,12,9
+	.half	.L393-.L225
+	.byte	1,5,18,9
+	.half	.L394-.L393
+	.byte	1,5,8,9
+	.half	.L227-.L394
+	.byte	1,5,20,9
+	.half	.L228-.L227
+	.byte	3,1,1,5,12,9
+	.half	.L395-.L228
+	.byte	1,5,18,9
+	.half	.L396-.L395
+	.byte	1,5,8,9
+	.half	.L230-.L396
+	.byte	1,5,10,9
+	.half	.L231-.L230
+	.byte	3,2,1,9
+	.half	.L233-.L231
+	.byte	3,1,1,9
+	.half	.L235-.L233
+	.byte	3,1,1,9
+	.half	.L237-.L235
+	.byte	3,1,1,5,5,9
+	.half	.L239-.L237
+	.byte	3,2,1,5,12,9
+	.half	.L397-.L239
+	.byte	1,5,16,9
+	.half	.L398-.L397
+	.byte	1,5,21,9
+	.half	.L399-.L398
+	.byte	1,5,31,9
+	.half	.L400-.L399
+	.byte	1,5,8,9
+	.half	.L401-.L400
+	.byte	1,5,5,9
+	.half	.L402-.L401
+	.byte	3,1,1,5,25,9
+	.half	.L403-.L402
+	.byte	1,5,20,9
+	.half	.L404-.L403
+	.byte	1,5,30,9
+	.half	.L405-.L404
+	.byte	1,5,8,9
+	.half	.L406-.L405
+	.byte	1,5,5,9
+	.half	.L407-.L406
+	.byte	3,1,1,5,15,9
+	.half	.L408-.L407
+	.byte	1,5,20,9
+	.half	.L409-.L408
+	.byte	1,5,30,9
+	.half	.L410-.L409
+	.byte	1,5,8,9
+	.half	.L411-.L410
+	.byte	1,5,5,9
+	.half	.L412-.L411
+	.byte	3,1,1,5,25,9
+	.half	.L413-.L412
+	.byte	1,5,20,9
+	.half	.L414-.L413
+	.byte	1,5,30,9
+	.half	.L415-.L414
+	.byte	1,5,8,9
+	.half	.L416-.L415
+	.byte	1,5,62,9
+	.half	.L417-.L416
+	.byte	3,2,1,5,67,9
+	.half	.L418-.L417
+	.byte	1,5,52,9
+	.half	.L419-.L418
+	.byte	1,5,57,9
+	.half	.L226-.L419
+	.byte	1,5,32,9
+	.half	.L232-.L226
+	.byte	1,5,37,9
+	.half	.L229-.L232
+	.byte	1,5,42,9
+	.half	.L234-.L229
+	.byte	1,5,47,9
+	.half	.L236-.L234
+	.byte	1,5,45,9
+	.half	.L238-.L236
+	.byte	1,5,40,9
+	.half	.L420-.L238
+	.byte	1,5,50,9
+	.half	.L421-.L420
+	.byte	1,5,60,9
+	.half	.L422-.L421
+	.byte	1,5,5,9
+	.half	.L240-.L422
+	.byte	3,1,1,5,8,9
+	.half	.L423-.L240
+	.byte	1,5,5,9
+	.half	.L424-.L423
+	.byte	3,1,1,5,8,9
+	.half	.L425-.L424
+	.byte	1,5,5,9
+	.half	.L426-.L425
+	.byte	3,1,1,5,8,9
+	.half	.L427-.L426
+	.byte	1,5,5,9
+	.half	.L428-.L427
+	.byte	3,1,1,5,8,9
+	.half	.L429-.L428
+	.byte	1,5,1,9
+	.half	.L430-.L429
+	.byte	3,1,1,7,9
+	.half	.L49-.L430
+	.byte	0,1,1
+.L334:
+	.sdecl	'.debug_ranges',debug,cluster('MahonyAHRSupdateIMU')
+	.sect	'.debug_ranges'
+.L48:
+	.word	-1,.L18,0,.L49-.L18,0,0
+	.sdecl	'.debug_info',debug,cluster('Mahony_GetAngles')
+	.sect	'.debug_info'
+.L50:
+	.word	199
+	.half	3
+	.word	.L51
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1
+	.word	.L53,.L52
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'Mahony_GetAngles',0,1,169,1,6,1,1,1
+	.word	.L22,.L157,.L21
+	.byte	4
+	.word	.L22,.L157
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Mahony_GetAngles')
+	.sect	'.debug_abbrev'
+.L51:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Mahony_GetAngles')
+	.sect	'.debug_line'
+.L52:
+	.word	.L432-.L431
+.L431:
+	.half	3
+	.word	.L434-.L433
+.L433:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/MahonyAHRS.c',0,0,0,0,0
+.L434:
+	.byte	5,6,7,0,5,2
+	.word	.L22
+	.byte	3,168,1,1,5,17,9
+	.half	.L241-.L22
+	.byte	3,2,1,5,92,9
+	.half	.L435-.L241
+	.byte	3,1,1,5,100,9
+	.half	.L436-.L435
+	.byte	1,5,108,9
+	.half	.L437-.L436
+	.byte	1,5,116,9
+	.half	.L438-.L437
+	.byte	1,5,25,9
+	.half	.L439-.L438
+	.byte	1,5,33,9
+	.half	.L440-.L439
+	.byte	1,5,42,9
+	.half	.L441-.L440
+	.byte	1,5,50,9
+	.half	.L442-.L441
+	.byte	1,5,59,9
+	.half	.L443-.L442
+	.byte	1,5,67,9
+	.half	.L444-.L443
+	.byte	1,5,76,9
+	.half	.L445-.L444
+	.byte	1,5,84,9
+	.half	.L446-.L445
+	.byte	1,5,28,9
+	.half	.L447-.L446
+	.byte	3,1,1,5,1,9
+	.half	.L448-.L447
+	.byte	3,1,1,7,9
+	.half	.L54-.L448
+	.byte	0,1,1
+.L432:
+	.sdecl	'.debug_ranges',debug,cluster('Mahony_GetAngles')
+	.sect	'.debug_ranges'
+.L53:
+	.word	-1,.L22,0,.L54-.L22,0,0
+	.sdecl	'.debug_info',debug,cluster('get_yaw')
+	.sect	'.debug_info'
+.L55:
+	.word	194
+	.half	3
+	.word	.L56
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1
+	.word	.L58,.L57
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'get_yaw',0,1,227,1,7
+	.word	.L122
+	.byte	1,1,1
+	.word	.L28,.L158,.L27
+	.byte	4
+	.word	.L28,.L158
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('get_yaw')
+	.sect	'.debug_abbrev'
+.L56:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('get_yaw')
+	.sect	'.debug_line'
+.L57:
+	.word	.L450-.L449
+.L449:
+	.half	3
+	.word	.L452-.L451
+.L451:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/MahonyAHRS.c',0,0,0,0,0
+.L452:
+	.byte	5,12,7,0,5,2
+	.word	.L28
+	.byte	3,227,1,1,5,22,9
+	.half	.L453-.L28
+	.byte	1,5,5,9
+	.half	.L454-.L453
+	.byte	1,5,1,9
+	.half	.L10-.L454
+	.byte	3,1,1,7,9
+	.half	.L59-.L10
+	.byte	0,1,1
+.L450:
+	.sdecl	'.debug_ranges',debug,cluster('get_yaw')
+	.sect	'.debug_ranges'
+.L58:
+	.word	-1,.L28,0,.L59-.L28,0,0
+	.sdecl	'.debug_info',debug,cluster('imu660rc_init_main')
+	.sect	'.debug_info'
+.L60:
+	.word	200
+	.half	3
+	.word	.L61
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1
+	.word	.L63,.L62
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'imu660rc_init_main',0,1,231,1,6,1,1
+	.word	.L30,.L159,.L29
+	.byte	4
+	.word	.L30,.L159
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('imu660rc_init_main')
+	.sect	'.debug_abbrev'
+.L61:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('imu660rc_init_main')
+	.sect	'.debug_line'
+.L62:
+	.word	.L456-.L455
+.L455:
+	.half	3
+	.word	.L458-.L457
+.L457:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/MahonyAHRS.c',0,0,0,0,0
+.L458:
+	.byte	5,17,7,0,5,2
+	.word	.L30
+	.byte	3,231,1,1,5,5,9
+	.half	.L459-.L30
+	.byte	3,1,1,5,1,9
+	.half	.L460-.L459
+	.byte	3,1,1,7,9
+	.half	.L64-.L460
+	.byte	0,1,1
+.L456:
+	.sdecl	'.debug_ranges',debug,cluster('imu660rc_init_main')
+	.sect	'.debug_ranges'
+.L63:
+	.word	-1,.L30,0,.L64-.L30,0,0
+	.sdecl	'.debug_info',debug,cluster('Mahony_invSqrt')
+	.sect	'.debug_info'
+.L65:
+	.word	261
+	.half	3
+	.word	.L66
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1
+	.word	.L68,.L67
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'Mahony_invSqrt',0,1,29,7
+	.word	.L122
+	.byte	1,1,1
+	.word	.L12,.L160,.L11
+	.byte	4
+	.byte	'x',0,1,29,28
+	.word	.L122,.L161
+	.byte	5
+	.word	.L12,.L160
+	.byte	6
+	.byte	'halfx',0,1,31,11
+	.word	.L122,.L162
+	.byte	6
+	.byte	'y',0,1,32,11
+	.word	.L122,.L163
+	.byte	6
+	.byte	'i',0,1,33,10
+	.word	.L164,.L165
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Mahony_invSqrt')
+	.sect	'.debug_abbrev'
+.L66:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Mahony_invSqrt')
+	.sect	'.debug_line'
+.L67:
+	.word	.L462-.L461
+.L461:
+	.half	3
+	.word	.L464-.L463
+.L463:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/MahonyAHRS.c',0,0,0,0,0
+.L464:
+	.byte	5,19,7,0,5,2
+	.word	.L12
+	.byte	3,30,1,5,24,9
+	.half	.L465-.L12
+	.byte	1,5,9,9
+	.half	.L187-.L465
+	.byte	3,3,1,5,24,9
+	.half	.L466-.L187
+	.byte	1,5,20,9
+	.half	.L186-.L466
+	.byte	1,5,14,9
+	.half	.L467-.L186
+	.byte	3,2,1,5,28,9
+	.half	.L468-.L467
+	.byte	1,5,19,9
+	.half	.L469-.L468
+	.byte	1,5,11,9
+	.half	.L470-.L469
+	.byte	1,5,14,9
+	.half	.L189-.L470
+	.byte	3,1,1,5,28,9
+	.half	.L471-.L189
+	.byte	1,5,19,9
+	.half	.L188-.L471
+	.byte	1,5,11,9
+	.half	.L472-.L188
+	.byte	1,5,5,9
+	.half	.L190-.L472
+	.byte	3,1,1,5,1,9
+	.half	.L2-.L190
+	.byte	3,1,1,7,9
+	.half	.L69-.L2
+	.byte	0,1,1
+.L462:
+	.sdecl	'.debug_ranges',debug,cluster('Mahony_invSqrt')
+	.sect	'.debug_ranges'
+.L68:
+	.word	-1,.L12,0,.L69-.L12,0,0
+	.sdecl	'.debug_info',debug,cluster('IMU_GetValue')
+	.sect	'.debug_info'
+.L70:
+	.word	273
+	.half	3
+	.word	.L71
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1
+	.word	.L73,.L72
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'IMU_GetValue',0,1,66,6,1,1
+	.word	.L16,.L166,.L15
+	.byte	4
+	.word	.L16,.L166
+	.byte	4
+	.word	.L167,.L166
+	.byte	5
+	.byte	'gyro_x_dps',0,1,79,11
+	.word	.L122,.L168
+	.byte	5
+	.byte	'gyro_y_dps',0,1,80,11
+	.word	.L122,.L169
+	.byte	5
+	.byte	'gyro_z_dps',0,1,81,11
+	.word	.L122,.L170
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IMU_GetValue')
+	.sect	'.debug_abbrev'
+.L71:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IMU_GetValue')
+	.sect	'.debug_line'
+.L72:
+	.word	.L474-.L473
+.L473:
+	.half	3
+	.word	.L476-.L475
+.L475:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/MahonyAHRS.c',0,0,0,0,0
+.L476:
+	.byte	5,22,7,0,5,2
+	.word	.L16
+	.byte	3,196,0,1,5,21,9
+	.half	.L477-.L16
+	.byte	3,1,1,5,5,9
+	.half	.L478-.L477
+	.byte	3,3,1,5,22,9
+	.half	.L479-.L478
+	.byte	1,5,20,9
+	.half	.L480-.L479
+	.byte	1,5,5,9
+	.half	.L481-.L480
+	.byte	3,1,1,5,22,9
+	.half	.L482-.L481
+	.byte	1,5,20,9
+	.half	.L483-.L482
+	.byte	1,5,5,9
+	.half	.L484-.L483
+	.byte	3,1,1,5,22,9
+	.half	.L485-.L484
+	.byte	1,5,20,9
+	.half	.L486-.L485
+	.byte	1,5,24,9
+	.half	.L167-.L486
+	.byte	3,4,1,5,68,9
+	.half	.L487-.L167
+	.byte	1,5,66,9
+	.half	.L488-.L487
+	.byte	1,5,24,9
+	.half	.L196-.L488
+	.byte	3,1,1,5,68,9
+	.half	.L489-.L196
+	.byte	1,5,66,9
+	.half	.L490-.L489
+	.byte	1,5,24,9
+	.half	.L197-.L490
+	.byte	3,1,1,5,68,9
+	.half	.L491-.L197
+	.byte	1,5,66,9
+	.half	.L492-.L491
+	.byte	1,5,5,9
+	.half	.L198-.L492
+	.byte	3,3,1,5,42,9
+	.half	.L493-.L198
+	.byte	1,5,34,9
+	.half	.L494-.L493
+	.byte	1,5,21,9
+	.half	.L495-.L494
+	.byte	1,5,5,9
+	.half	.L496-.L495
+	.byte	3,1,1,5,42,9
+	.half	.L497-.L496
+	.byte	1,5,34,9
+	.half	.L498-.L497
+	.byte	1,5,21,9
+	.half	.L499-.L498
+	.byte	1,5,5,9
+	.half	.L500-.L499
+	.byte	3,1,1,5,42,9
+	.half	.L501-.L500
+	.byte	1,5,34,9
+	.half	.L502-.L501
+	.byte	1,5,21,9
+	.half	.L503-.L502
+	.byte	1,5,5,9
+	.half	.L504-.L503
+	.byte	3,3,1,5,8,9
+	.half	.L505-.L504
+	.byte	1,5,1,9
+	.half	.L506-.L505
+	.byte	3,1,1,7,9
+	.half	.L74-.L506
+	.byte	0,1,1
+.L474:
+	.sdecl	'.debug_ranges',debug,cluster('IMU_GetValue')
+	.sect	'.debug_ranges'
+.L73:
+	.word	-1,.L16,0,.L74-.L16,0,0
+	.sdecl	'.debug_info',debug,cluster('QuaternionsToEulerAngle')
+	.sect	'.debug_info'
+.L75:
+	.word	205
+	.half	3
+	.word	.L76
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1
+	.word	.L78,.L77
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'QuaternionsToEulerAngle',0,1,157,1,6,1,1
+	.word	.L20,.L171,.L19
+	.byte	4
+	.word	.L20,.L171
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('QuaternionsToEulerAngle')
+	.sect	'.debug_abbrev'
+.L76:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('QuaternionsToEulerAngle')
+	.sect	'.debug_line'
+.L77:
+	.word	.L508-.L507
+.L507:
+	.half	3
+	.word	.L510-.L509
+.L509:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/MahonyAHRS.c',0,0,0,0,0
+.L510:
+	.byte	5,5,7,0,5,2
+	.word	.L20
+	.byte	3,158,1,1,5,34,9
+	.half	.L511-.L20
+	.byte	1,5,37,9
+	.half	.L512-.L511
+	.byte	1,5,36,9
+	.half	.L513-.L512
+	.byte	1,5,42,9
+	.half	.L514-.L513
+	.byte	1,5,45,9
+	.half	.L515-.L514
+	.byte	1,5,40,9
+	.half	.L516-.L515
+	.byte	1,5,25,9
+	.half	.L517-.L516
+	.byte	1,5,40,9
+	.half	.L518-.L517
+	.byte	1,5,17,9
+	.half	.L519-.L518
+	.byte	1,5,5,9
+	.half	.L520-.L519
+	.byte	3,1,1,5,35,9
+	.half	.L521-.L520
+	.byte	1,5,23,9
+	.half	.L522-.L521
+	.byte	1,5,33,9
+	.half	.L523-.L522
+	.byte	1,5,21,9
+	.half	.L524-.L523
+	.byte	1,5,5,9
+	.half	.L525-.L524
+	.byte	3,2,1,5,27,9
+	.half	.L526-.L525
+	.byte	1,5,30,9
+	.half	.L527-.L526
+	.byte	1,5,35,9
+	.half	.L528-.L527
+	.byte	1,5,38,9
+	.half	.L529-.L528
+	.byte	1,5,37,9
+	.half	.L530-.L529
+	.byte	1,5,33,9
+	.half	.L531-.L530
+	.byte	1,5,42,9
+	.half	.L532-.L531
+	.byte	1,5,49,9
+	.half	.L533-.L532
+	.byte	1,5,52,9
+	.half	.L534-.L533
+	.byte	1,5,47,9
+	.half	.L535-.L534
+	.byte	1,5,57,9
+	.half	.L536-.L535
+	.byte	1,5,60,9
+	.half	.L537-.L536
+	.byte	1,5,55,9
+	.half	.L538-.L537
+	.byte	1,5,18,9
+	.half	.L539-.L538
+	.byte	1,5,5,9
+	.half	.L540-.L539
+	.byte	3,1,1,5,36,9
+	.half	.L541-.L540
+	.byte	1,5,24,9
+	.half	.L542-.L541
+	.byte	1,5,34,9
+	.half	.L543-.L542
+	.byte	1,5,22,9
+	.half	.L544-.L543
+	.byte	1,5,5,9
+	.half	.L545-.L544
+	.byte	3,2,1,5,25,9
+	.half	.L546-.L545
+	.byte	1,5,28,9
+	.half	.L547-.L546
+	.byte	1,5,33,9
+	.half	.L548-.L547
+	.byte	1,5,36,9
+	.half	.L549-.L548
+	.byte	1,5,35,9
+	.half	.L550-.L549
+	.byte	1,5,31,9
+	.half	.L551-.L550
+	.byte	1,5,40,9
+	.half	.L552-.L551
+	.byte	1,5,47,9
+	.half	.L553-.L552
+	.byte	1,5,50,9
+	.half	.L554-.L553
+	.byte	1,5,45,9
+	.half	.L555-.L554
+	.byte	1,5,55,9
+	.half	.L556-.L555
+	.byte	1,5,58,9
+	.half	.L557-.L556
+	.byte	1,5,53,9
+	.half	.L558-.L557
+	.byte	1,5,16,9
+	.half	.L559-.L558
+	.byte	1,5,5,9
+	.half	.L560-.L559
+	.byte	3,1,1,5,34,9
+	.half	.L561-.L560
+	.byte	1,5,22,9
+	.half	.L562-.L561
+	.byte	1,5,32,9
+	.half	.L563-.L562
+	.byte	1,5,20,9
+	.half	.L564-.L563
+	.byte	1,5,1,9
+	.half	.L565-.L564
+	.byte	3,1,1,7,9
+	.half	.L79-.L565
+	.byte	0,1,1
+.L508:
+	.sdecl	'.debug_ranges',debug,cluster('QuaternionsToEulerAngle')
+	.sect	'.debug_ranges'
+.L78:
+	.word	-1,.L20,0,.L79-.L20,0,0
+	.sdecl	'.debug_info',debug,cluster('Get_InitAngle')
+	.sect	'.debug_info'
+.L80:
+	.word	389
+	.half	3
+	.word	.L81
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1
+	.word	.L83,.L82
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'Get_InitAngle',0,1,176,1,6,1,1,1
+	.word	.L24,.L172,.L23
+	.byte	4
+	.byte	'ax',0,1,176,1,26
+	.word	.L122,.L173
+	.byte	4
+	.byte	'ay',0,1,176,1,36
+	.word	.L122,.L174
+	.byte	4
+	.byte	'az',0,1,176,1,46
+	.word	.L122,.L175
+	.byte	5
+	.word	.L24,.L172
+	.byte	6
+	.byte	'recipNorm',0,1,178,1,11
+	.word	.L122,.L176
+	.byte	5
+	.word	.L177,.L172
+	.byte	6
+	.byte	'roll_init',0,1,183,1,11
+	.word	.L122,.L178
+	.byte	6
+	.byte	'pitch_init',0,1,184,1,11
+	.word	.L122,.L179
+	.byte	6
+	.byte	'cr',0,1,186,1,11
+	.word	.L122,.L180
+	.byte	6
+	.byte	'sr',0,1,187,1,11
+	.word	.L122,.L181
+	.byte	6
+	.byte	'cp',0,1,188,1,11
+	.word	.L122,.L182
+	.byte	6
+	.byte	'sp',0,1,189,1,11
+	.word	.L122,.L183
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Get_InitAngle')
+	.sect	'.debug_abbrev'
+.L81:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Get_InitAngle')
+	.sect	'.debug_line'
+.L82:
+	.word	.L567-.L566
+.L566:
+	.half	3
+	.word	.L569-.L568
+.L568:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/MahonyAHRS.c',0,0,0,0,0
+.L569:
+	.byte	5,6,7,0,5,2
+	.word	.L24
+	.byte	3,175,1,1,5,51,9
+	.half	.L246-.L24
+	.byte	3,2,1,5,46,9
+	.half	.L247-.L246
+	.byte	1,5,56,9
+	.half	.L248-.L247
+	.byte	1,5,8,9
+	.half	.L243-.L248
+	.byte	3,1,1,9
+	.half	.L250-.L243
+	.byte	3,1,1,9
+	.half	.L252-.L250
+	.byte	3,1,1,5,34,9
+	.half	.L177-.L252
+	.byte	3,2,1,5,21,9
+	.half	.L249-.L177
+	.byte	1,5,52,9
+	.half	.L255-.L249
+	.byte	3,1,1,5,48,9
+	.half	.L570-.L255
+	.byte	1,5,31,9
+	.half	.L254-.L570
+	.byte	1,5,41,9
+	.half	.L571-.L254
+	.byte	1,5,22,9
+	.half	.L257-.L571
+	.byte	1,5,33,9
+	.half	.L253-.L257
+	.byte	3,2,1,5,31,9
+	.half	.L245-.L253
+	.byte	1,5,14,9
+	.half	.L258-.L245
+	.byte	1,5,33,9
+	.half	.L251-.L258
+	.byte	3,1,1,5,31,9
+	.half	.L572-.L251
+	.byte	1,5,14,9
+	.half	.L260-.L572
+	.byte	1,5,34,9
+	.half	.L256-.L260
+	.byte	3,1,1,5,32,9
+	.half	.L573-.L256
+	.byte	1,5,14,9
+	.half	.L261-.L573
+	.byte	1,5,34,9
+	.half	.L263-.L261
+	.byte	3,1,1,5,32,9
+	.half	.L574-.L263
+	.byte	1,5,14,9
+	.half	.L262-.L574
+	.byte	1,5,5,9
+	.half	.L259-.L262
+	.byte	3,2,1,5,13,9
+	.half	.L575-.L259
+	.byte	1,5,8,9
+	.half	.L576-.L575
+	.byte	1,5,5,9
+	.half	.L577-.L576
+	.byte	3,1,1,5,13,9
+	.half	.L578-.L577
+	.byte	1,5,8,9
+	.half	.L579-.L578
+	.byte	1,5,5,9
+	.half	.L580-.L579
+	.byte	3,1,1,5,13,9
+	.half	.L581-.L580
+	.byte	1,5,8,9
+	.half	.L582-.L581
+	.byte	1,5,5,9
+	.half	.L583-.L582
+	.byte	3,1,1,5,10,9
+	.half	.L584-.L583
+	.byte	1,5,14,9
+	.half	.L585-.L584
+	.byte	1,5,8,9
+	.half	.L586-.L585
+	.byte	1,5,56,9
+	.half	.L587-.L586
+	.byte	3,2,1,5,59,9
+	.half	.L588-.L587
+	.byte	1,5,48,9
+	.half	.L589-.L588
+	.byte	1,5,51,9
+	.half	.L590-.L589
+	.byte	1,5,32,9
+	.half	.L264-.L590
+	.byte	1,5,35,9
+	.half	.L591-.L264
+	.byte	1,5,40,9
+	.half	.L592-.L591
+	.byte	1,5,43,9
+	.half	.L593-.L592
+	.byte	1,5,42,9
+	.half	.L594-.L593
+	.byte	1,5,38,9
+	.half	.L595-.L594
+	.byte	1,5,46,9
+	.half	.L596-.L595
+	.byte	1,5,54,9
+	.half	.L597-.L596
+	.byte	1,5,5,9
+	.half	.L265-.L597
+	.byte	3,1,1,5,8,9
+	.half	.L598-.L265
+	.byte	1,5,5,9
+	.half	.L599-.L598
+	.byte	3,1,1,5,8,9
+	.half	.L600-.L599
+	.byte	1,5,5,9
+	.half	.L601-.L600
+	.byte	3,1,1,5,8,9
+	.half	.L602-.L601
+	.byte	1,5,5,9
+	.half	.L603-.L602
+	.byte	3,1,1,5,8,9
+	.half	.L604-.L603
+	.byte	1,5,1,9
+	.half	.L605-.L604
+	.byte	3,1,1,7,9
+	.half	.L84-.L605
+	.byte	0,1,1
+.L567:
+	.sdecl	'.debug_ranges',debug,cluster('Get_InitAngle')
+	.sect	'.debug_ranges'
+.L83:
+	.word	-1,.L24,0,.L84-.L24,0,0
+	.sdecl	'.debug_info',debug,cluster('imu_data')
+	.sect	'.debug_info'
+.L85:
+	.word	168
+	.half	3
+	.word	.L86
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'imu_data',0,4,16,13
+	.word	.L184
+	.byte	1,5,3
+	.word	imu_data
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('imu_data')
+	.sect	'.debug_abbrev'
+.L86:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('eulerAngle')
+	.sect	'.debug_info'
+.L87:
+	.word	170
+	.half	3
+	.word	.L88
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'eulerAngle',0,4,17,15
+	.word	.L185
+	.byte	1,5,3
+	.word	eulerAngle
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('eulerAngle')
+	.sect	'.debug_abbrev'
+.L88:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('GZ')
+	.sect	'.debug_info'
+.L89:
+	.word	162
+	.half	3
+	.word	.L90
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'GZ',0,4,14,7
+	.word	.L122
+	.byte	1,5,3
+	.word	GZ
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('GZ')
+	.sect	'.debug_abbrev'
+.L90:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('gyro_offset_x')
+	.sect	'.debug_info'
+.L91:
+	.word	173
+	.half	3
+	.word	.L92
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'gyro_offset_x',0,4,20,7
+	.word	.L122
+	.byte	1,5,3
+	.word	gyro_offset_x
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('gyro_offset_x')
+	.sect	'.debug_abbrev'
+.L92:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('gyro_offset_y')
+	.sect	'.debug_info'
+.L93:
+	.word	173
+	.half	3
+	.word	.L94
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'gyro_offset_y',0,4,21,7
+	.word	.L122
+	.byte	1,5,3
+	.word	gyro_offset_y
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('gyro_offset_y')
+	.sect	'.debug_abbrev'
+.L94:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('gyro_offset_z')
+	.sect	'.debug_info'
+.L95:
+	.word	173
+	.half	3
+	.word	.L96
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'gyro_offset_z',0,4,22,7
+	.word	.L122
+	.byte	1,5,3
+	.word	gyro_offset_z
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('gyro_offset_z')
+	.sect	'.debug_abbrev'
+.L96:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('twoKi')
+	.sect	'.debug_info'
+.L97:
+	.word	165
+	.half	3
+	.word	.L98
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'twoKi',0,4,9,7
+	.word	.L122
+	.byte	1,5,3
+	.word	twoKi
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('twoKi')
+	.sect	'.debug_abbrev'
+.L98:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('q0')
+	.sect	'.debug_info'
+.L99:
+	.word	162
+	.half	3
+	.word	.L100
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'q0',0,4,10,7
+	.word	.L122
+	.byte	1,5,3
+	.word	q0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('q0')
+	.sect	'.debug_abbrev'
+.L100:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('q1')
+	.sect	'.debug_info'
+.L101:
+	.word	162
+	.half	3
+	.word	.L102
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'q1',0,4,10,11
+	.word	.L122
+	.byte	1,5,3
+	.word	q1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('q1')
+	.sect	'.debug_abbrev'
+.L102:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('q2')
+	.sect	'.debug_info'
+.L103:
+	.word	162
+	.half	3
+	.word	.L104
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'q2',0,4,10,15
+	.word	.L122
+	.byte	1,5,3
+	.word	q2
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('q2')
+	.sect	'.debug_abbrev'
+.L104:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('q3')
+	.sect	'.debug_info'
+.L105:
+	.word	162
+	.half	3
+	.word	.L106
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'q3',0,4,10,19
+	.word	.L122
+	.byte	1,5,3
+	.word	q3
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('q3')
+	.sect	'.debug_abbrev'
+.L106:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('integralFBx')
+	.sect	'.debug_info'
+.L107:
+	.word	171
+	.half	3
+	.word	.L108
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'integralFBx',0,4,11,7
+	.word	.L122
+	.byte	1,5,3
+	.word	integralFBx
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('integralFBx')
+	.sect	'.debug_abbrev'
+.L108:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('integralFBy')
+	.sect	'.debug_info'
+.L109:
+	.word	171
+	.half	3
+	.word	.L110
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'integralFBy',0,4,11,20
+	.word	.L122
+	.byte	1,5,3
+	.word	integralFBy
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('integralFBy')
+	.sect	'.debug_abbrev'
+.L110:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('integralFBz')
+	.sect	'.debug_info'
+.L111:
+	.word	171
+	.half	3
+	.word	.L112
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'integralFBz',0,4,11,33
+	.word	.L122
+	.byte	1,5,3
+	.word	integralFBz
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('integralFBz')
+	.sect	'.debug_abbrev'
+.L112:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('invSampleFreq')
+	.sect	'.debug_info'
+.L113:
+	.word	173
+	.half	3
+	.word	.L114
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'invSampleFreq',0,4,12,7
+	.word	.L122
+	.byte	1,5,3
+	.word	invSampleFreq
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('invSampleFreq')
+	.sect	'.debug_abbrev'
+.L114:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('roll_mahony')
+	.sect	'.debug_info'
+.L115:
+	.word	171
+	.half	3
+	.word	.L116
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'roll_mahony',0,4,13,7
+	.word	.L122
+	.byte	1,5,3
+	.word	roll_mahony
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('roll_mahony')
+	.sect	'.debug_abbrev'
+.L116:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('pitch_mahony')
+	.sect	'.debug_info'
+.L117:
+	.word	172
+	.half	3
+	.word	.L118
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'pitch_mahony',0,4,13,20
+	.word	.L122
+	.byte	1,5,3
+	.word	pitch_mahony
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('pitch_mahony')
+	.sect	'.debug_abbrev'
+.L118:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('yaw_mahony')
+	.sect	'.debug_info'
+.L119:
+	.word	170
+	.half	3
+	.word	.L120
+	.byte	4,1
+	.byte	'../code/MahonyAHRS.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSone\\Soberup_2026\\Debug\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'yaw_mahony',0,4,13,34
+	.word	.L122
+	.byte	1,5,3
+	.word	yaw_mahony
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('yaw_mahony')
+	.sect	'.debug_abbrev'
+.L120:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('Get_InitAngle')
+	.sect	'.debug_loc'
+.L23:
+	.word	-1,.L24,0,.L172-.L24
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L173:
+	.word	-1,.L24,0,.L242-.L24
+	.half	1
+	.byte	84
+	.word	.L244-.L24,.L245-.L24
+	.half	1
+	.byte	95
+	.word	0,0
+.L174:
+	.word	-1,.L24,0,.L243-.L24
+	.half	1
+	.byte	85
+	.word	.L246-.L24,.L247-.L24
+	.half	1
+	.byte	88
+	.word	.L250-.L24,.L251-.L24
+	.half	1
+	.byte	88
+	.word	0,0
+.L175:
+	.word	-1,.L24,0,.L243-.L24
+	.half	1
+	.byte	86
+	.word	.L248-.L24,.L242-.L24
+	.half	1
+	.byte	89
+	.word	.L252-.L24,.L253-.L24
+	.half	1
+	.byte	89
+	.word	0,0
+.L182:
+	.word	-1,.L24,.L261-.L24,.L262-.L24
+	.half	1
+	.byte	82
+	.word	.L263-.L24,.L172-.L24
+	.half	1
+	.byte	91
+	.word	0,0
+.L180:
+	.word	-1,.L24,.L258-.L24,.L260-.L24
+	.half	1
+	.byte	82
+	.word	.L251-.L24,.L172-.L24
+	.half	1
+	.byte	88
+	.word	0,0
+.L179:
+	.word	-1,.L24,.L257-.L24,.L258-.L24
+	.half	1
+	.byte	82
+	.word	.L253-.L24,.L259-.L24
+	.half	1
+	.byte	89
+	.word	0,0
+.L176:
+	.word	-1,.L24,.L243-.L24,.L249-.L24
+	.half	1
+	.byte	82
+	.word	.L265-.L24,.L172-.L24
+	.half	1
+	.byte	82
+	.word	0,0
+.L178:
+	.word	-1,.L24,.L249-.L24,.L254-.L24
+	.half	1
+	.byte	82
+	.word	.L255-.L24,.L256-.L24
+	.half	1
+	.byte	90
+	.word	0,0
+.L183:
+	.word	-1,.L24,.L262-.L24,.L264-.L24
+	.half	1
+	.byte	82
+	.word	.L259-.L24,.L172-.L24
+	.half	1
+	.byte	89
+	.word	0,0
+.L181:
+	.word	-1,.L24,.L260-.L24,.L261-.L24
+	.half	1
+	.byte	82
+	.word	.L256-.L24,.L172-.L24
+	.half	1
+	.byte	90
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('IMU_GetValue')
+	.sect	'.debug_loc'
+.L15:
+	.word	-1,.L16,0,.L166-.L16
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L168:
+	.word	-1,.L16,.L196-.L16,.L166-.L16
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L169:
+	.word	-1,.L16,.L197-.L16,.L166-.L16
+	.half	1
+	.byte	81
+	.word	0,0
+.L170:
+	.word	-1,.L16,.L198-.L16,.L166-.L16
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('MahonyAHRSupdateIMU')
+	.sect	'.debug_loc'
+.L17:
+	.word	-1,.L18,0,.L139-.L18
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L143:
+	.word	-1,.L18,0,.L199-.L18
+	.half	1
+	.byte	87
+	.word	.L203-.L18,.L204-.L18
+	.half	1
+	.byte	91
+	.word	.L206-.L18,.L207-.L18
+	.half	1
+	.byte	91
+	.word	.L199-.L18,.L208-.L18
+	.half	1
+	.byte	91
+	.word	.L208-.L18,.L210-.L18
+	.half	1
+	.byte	83
+	.word	0,0
+.L144:
+	.word	-1,.L18,0,.L139-.L18
+	.half	2
+	.byte	145,0
+	.word	0,.L139-.L18
+	.half	2
+	.byte	145,0
+	.word	.L201-.L18,.L202-.L18
+	.half	1
+	.byte	92
+	.word	.L202-.L18,.L211-.L18
+	.half	1
+	.byte	84
+	.word	0,0
+.L145:
+	.word	-1,.L18,0,.L139-.L18
+	.half	2
+	.byte	145,4
+	.word	0,.L139-.L18
+	.half	2
+	.byte	145,4
+	.word	.L203-.L18,.L205-.L18
+	.half	1
+	.byte	93
+	.word	.L205-.L18,.L7-.L18
+	.half	1
+	.byte	85
+	.word	0,0
+.L140:
+	.word	-1,.L18,0,.L200-.L18
+	.half	1
+	.byte	84
+	.word	.L218-.L18,.L9-.L18
+	.half	1
+	.byte	88
+	.word	.L221-.L18,.L7-.L18
+	.half	1
+	.byte	88
+	.word	.L224-.L18,.L225-.L18
+	.half	1
+	.byte	88
+	.word	.L225-.L18,.L226-.L18
+	.half	1
+	.byte	81
+	.word	0,0
+.L141:
+	.word	-1,.L18,0,.L199-.L18
+	.half	1
+	.byte	85
+	.word	.L219-.L18,.L9-.L18
+	.half	1
+	.byte	89
+	.word	.L222-.L18,.L7-.L18
+	.half	1
+	.byte	89
+	.word	.L227-.L18,.L228-.L18
+	.half	1
+	.byte	89
+	.word	.L228-.L18,.L229-.L18
+	.half	1
+	.byte	83
+	.word	0,0
+.L142:
+	.word	-1,.L18,0,.L199-.L18
+	.half	1
+	.byte	86
+	.word	.L220-.L18,.L9-.L18
+	.half	1
+	.byte	90
+	.word	.L223-.L18,.L7-.L18
+	.half	1
+	.byte	90
+	.word	.L230-.L18,.L231-.L18
+	.half	1
+	.byte	90
+	.word	.L231-.L18,.L232-.L18
+	.half	1
+	.byte	82
+	.word	0,0
+.L150:
+	.word	-1,.L18,.L216-.L18,.L7-.L18
+	.half	1
+	.byte	81
+	.word	0,0
+.L151:
+	.word	-1,.L18,.L217-.L18,.L7-.L18
+	.half	1
+	.byte	82
+	.word	0,0
+.L152:
+	.word	-1,.L18,.L211-.L18,.L7-.L18
+	.half	1
+	.byte	84
+	.word	0,0
+.L147:
+	.word	-1,.L18,.L212-.L18,.L7-.L18
+	.half	1
+	.byte	86
+	.word	0,0
+.L148:
+	.word	-1,.L18,.L213-.L18,.L7-.L18
+	.half	1
+	.byte	87
+	.word	0,0
+.L149:
+	.word	-1,.L18,.L214-.L18,.L215-.L18
+	.half	1
+	.byte	95
+	.word	0,0
+.L153:
+	.word	-1,.L18,.L233-.L18,.L234-.L18
+	.half	1
+	.byte	84
+	.word	0,0
+.L154:
+	.word	-1,.L18,.L235-.L18,.L236-.L18
+	.half	1
+	.byte	85
+	.word	0,0
+.L155:
+	.word	-1,.L18,.L237-.L18,.L238-.L18
+	.half	1
+	.byte	86
+	.word	0,0
+.L156:
+	.word	-1,.L18,.L239-.L18,.L240-.L18
+	.half	1
+	.byte	87
+	.word	0,0
+.L146:
+	.word	-1,.L18,.L199-.L18,.L209-.L18
+	.half	1
+	.byte	82
+	.word	.L240-.L18,.L139-.L18
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Mahony_CalibrateGyro')
+	.sect	'.debug_loc'
+.L13:
+	.word	-1,.L14,0,.L128-.L14
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L136:
+	.word	-1,.L14,.L194-.L14,.L195-.L14
+	.half	1
+	.byte	92
+	.word	.L3-.L14,.L128-.L14
+	.half	1
+	.byte	92
+	.word	0,0
+.L133:
+	.word	-1,.L14,.L134-.L14,.L128-.L14
+	.half	1
+	.byte	91
+	.word	0,0
+.L129:
+	.word	-1,.L14,.L191-.L14,.L128-.L14
+	.half	1
+	.byte	88
+	.word	0,0
+.L130:
+	.word	-1,.L14,.L192-.L14,.L128-.L14
+	.half	1
+	.byte	89
+	.word	0,0
+.L131:
+	.word	-1,.L14,.L193-.L14,.L128-.L14
+	.half	1
+	.byte	90
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Mahony_GetAngles')
+	.sect	'.debug_loc'
+.L21:
+	.word	-1,.L22,0,.L241-.L22
+	.half	2
+	.byte	138,0
+	.word	.L241-.L22,.L157-.L22
+	.half	2
+	.byte	138,8
+	.word	.L157-.L22,.L157-.L22
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Mahony_Init')
+	.sect	'.debug_loc'
+.L25:
+	.word	-1,.L26,0,.L121-.L26
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L125:
+	.word	-1,.L26,.L268-.L26,.L269-.L26
+	.half	1
+	.byte	84
+	.word	0,0
+.L126:
+	.word	-1,.L26,.L270-.L26,.L269-.L26
+	.half	1
+	.byte	85
+	.word	0,0
+.L127:
+	.word	-1,.L26,.L271-.L26,.L269-.L26
+	.half	1
+	.byte	86
+	.word	0,0
+.L123:
+	.word	-1,.L26,0,.L266-.L26
+	.half	1
+	.byte	84
+	.word	.L267-.L26,.L121-.L26
+	.half	1
+	.byte	88
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Mahony_invSqrt')
+	.sect	'.debug_loc'
+.L11:
+	.word	-1,.L12,0,.L160-.L12
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L162:
+	.word	-1,.L12,.L187-.L12,.L188-.L12
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L165:
+	.word	-1,.L12,.L186-.L12,.L189-.L12
+	.half	1
+	.byte	95
+	.word	0,0
+.L161:
+	.word	-1,.L12,0,.L186-.L12
+	.half	1
+	.byte	84
+	.word	0,0
+.L163:
+	.word	-1,.L12,0,.L186-.L12
+	.half	1
+	.byte	84
+	.word	.L189-.L12,.L190-.L12
+	.half	1
+	.byte	95
+	.word	.L190-.L12,.L160-.L12
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('QuaternionsToEulerAngle')
+	.sect	'.debug_loc'
+.L19:
+	.word	-1,.L20,0,.L171-.L20
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('get_yaw')
+	.sect	'.debug_loc'
+.L27:
+	.word	-1,.L28,0,.L158-.L28
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('imu660rc_init_main')
+	.sect	'.debug_loc'
+.L29:
+	.word	-1,.L30,0,.L159-.L30
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L606:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Mahony_invSqrt')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L606,.L12,.L160-.L12
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Mahony_CalibrateGyro')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L606,.L14,.L128-.L14
+	.sdecl	'.debug_frame',debug,cluster('IMU_GetValue')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L606,.L16,.L166-.L16
+	.sdecl	'.debug_frame',debug,cluster('MahonyAHRSupdateIMU')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L606,.L18,.L139-.L18
+	.sdecl	'.debug_frame',debug,cluster('QuaternionsToEulerAngle')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L606,.L20,.L171-.L20
+	.sdecl	'.debug_frame',debug,cluster('Mahony_GetAngles')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L606,.L22,.L157-.L22
+	.byte	4
+	.word	(.L241-.L22)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L157-.L241)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('Get_InitAngle')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L606,.L24,.L172-.L24
+	.sdecl	'.debug_frame',debug,cluster('Mahony_Init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L606,.L26,.L121-.L26
+	.sdecl	'.debug_frame',debug,cluster('get_yaw')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L606,.L28,.L158-.L28
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('imu660rc_init_main')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L606,.L30,.L159-.L30
+	; Module end
